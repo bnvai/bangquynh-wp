@@ -1,6 +1,6 @@
-/** @jsxImportSource @emotion/react */
 import { useEffect, useRef } from 'react';
 import { styWrapper } from './styles';
+import { cx } from '@emotion/css';
 
 function createHeart(container) {
   const heart = document.createElement('div');
@@ -24,7 +24,6 @@ function HeartRain() {
     window.heartRainStarted = true;
 
     const container = containerRef.current;
-
     const interval = setInterval(() => {
       if (Math.random() < 0.7) createHeart(container);
     }, 500);
@@ -35,7 +34,7 @@ function HeartRain() {
   }, []);
 
   return (
-    <div css={styWrapper}>
+    <div className={styWrapper}>
       <div className="heart-container" ref={containerRef}></div>
     </div>
   );
