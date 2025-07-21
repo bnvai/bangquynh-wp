@@ -6580,7 +6580,7 @@ gatsby-telemetry@^1.10.2:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby@^2.0.0, gatsby@^2.21.37, gatsby@^2.24.79, gatsby@>=1, gatsby@>2.0.0:
+gatsby@^2.0.0, gatsby@^2.24.79, gatsby@^2.32.13, gatsby@>=1, gatsby@>2.0.0:
   version "2.32.13"
   resolved "https://registry.npmjs.org/gatsby/-/gatsby-2.32.13.tgz"
   integrity sha512-BYfiI/k+t8m/IzSkWZH8Cc0v7rJw6giSjG5sX25LWdfkQMqUvg/Gn6OC8BWwRPXnEwe7x0n5jbH+peO0p34ZHQ==
@@ -12717,18 +12717,7 @@ socket.io@3.1.1:
     socket.io-adapter "~2.1.0"
     socket.io-parser "~4.0.3"
 
-sockjs-client@^1.4.0, sockjs-client@^1.5.0:
-  version "1.6.1"
-  resolved "https://registry.npmjs.org/sockjs-client/-/sockjs-client-1.6.1.tgz"
-  integrity sha512-2g0tjOR+fRs0amxENLi/q5TiJTqY+WXFOzb5UwXndlK6TO3U/mirZznpx6w34HVMoc3g7cY24yC/ZMIYnDlfkw==
-  dependencies:
-    debug "^3.2.7"
-    eventsource "^2.0.2"
-    faye-websocket "^0.11.4"
-    inherits "^2.0.4"
-    url-parse "^1.5.10"
-
-sockjs-client@1.1.4:
+sockjs-client@^1.4.0, sockjs-client@1.1.4:
   version "1.1.4"
   resolved "https://registry.npmjs.org/sockjs-client/-/sockjs-client-1.1.4.tgz"
   integrity sha512-hkDiI0wOmGmoUG3TSIrbDt8AhyzhePuNT3nogc5+c0amyUHu091y+jRK2h/e36olKRG+tSbhlQYHWqdsuW0CtQ==
@@ -12739,6 +12728,17 @@ sockjs-client@1.1.4:
     inherits "^2.0.1"
     json3 "^3.3.2"
     url-parse "^1.1.8"
+
+sockjs-client@^1.5.0:
+  version "1.6.1"
+  resolved "https://registry.npmjs.org/sockjs-client/-/sockjs-client-1.6.1.tgz"
+  integrity sha512-2g0tjOR+fRs0amxENLi/q5TiJTqY+WXFOzb5UwXndlK6TO3U/mirZznpx6w34HVMoc3g7cY24yC/ZMIYnDlfkw==
+  dependencies:
+    debug "^3.2.7"
+    eventsource "^2.0.2"
+    faye-websocket "^0.11.4"
+    inherits "^2.0.4"
+    url-parse "^1.5.10"
 
 sockjs@^0.3.21:
   version "0.3.24"
@@ -13679,10 +13679,10 @@ type-detect@4.0.8:
   resolved "https://registry.npmjs.org/type-detect/-/type-detect-4.0.8.tgz"
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
-type-fest@^0.13.1:
-  version "0.13.1"
-  resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.13.1.tgz"
-  integrity sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==
+type-fest@^0.13.1, type-fest@^2.5.3:
+  version "2.19.0"
+  resolved "https://registry.npmjs.org/type-fest/-/type-fest-2.19.0.tgz"
+  integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
 
 type-fest@^0.20.2:
   version "0.20.2"
@@ -13708,11 +13708,6 @@ type-fest@^0.8.1:
   version "0.8.1"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.8.1.tgz"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
-
-type-fest@^2.5.3:
-  version "2.19.0"
-  resolved "https://registry.npmjs.org/type-fest/-/type-fest-2.19.0.tgz"
-  integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
 
 type-is@~1.6.18:
   version "1.6.18"
