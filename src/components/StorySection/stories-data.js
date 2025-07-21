@@ -1,50 +1,67 @@
-import ImgKembaliBerjumpa from '@assets/images/p-kembali-berjumpa.jpg';
-import ImgJakartaKroasia from '@assets/images/p-jakarta-kroasia.jpg';
-import ImgBoarding from '@assets/images/p-boarding-smg.jpg';
-import ImgKembaliKeIndonesia from '@assets/images/p-kembali-ke-indonesia.jpg';
-import ImgNdodokLawang from '@assets/images/p-ndodok-lawang.jpg';
+import Cap3 from '@assets/images/cap3.jpg';
+import SaiGon from '@assets/images/saigon.jpg';
+import DaNang from '@assets/images/danang1.jpg';
+import TotNghiep from '@assets/images/grad1.jpg';
+import LySon from '@assets/images/lyson1.jpg';
+import DaLat from '@assets/images/dalat2.jpg';
+import Thailand from '@assets/images/thailand1.jpg';
+import HanQuoc from '@assets/images/HanQuoc.jpg';
 
 export const stories = [
   {
-    title: 'Jumpa Pertama ',
-    date: '10 Oktober 2015',
+    title: 'Cấp 3 ',
+    date: '2016 - 2018',
     description:
-      'Pertama kali kami dipertemukan di sebuah acara malam keakraban di kampus Universitas Dian Nuswantoro. Sebagai seorang mahasiswa baru, kala itu Dinda melihat Indra sedang sibuk memegang megaphone (toa) di tengah hiruk pikuk acara. Belum ada sesuatu yang spesial, kala itu justru Dinda melihat Indra banyak menerima surat pink (tanda kagum) dari teman sesama mahasiswa barunya.',
-    image: '',
+      '👀 Những ngày đầu ngơ ngác, vụng dại, chỉ dám nhìn nhau qua ánh mắt rồi quay đi cười thẹn. Cấp 3 là nơi trái tim bắt đầu rung động nhẹ nhàng như làn gió mùa thu.',
+    image: Cap3,
   },
   {
-    title: 'Kembali Berjumpa',
-    date: '9 September 2017',
+    title: 'Yêu Xa ',
+    date: '2018 - 2022',
     description:
-      'Konferensi Future Leader Summit 2017 kembali mempertemukan mereka. Dinda sebagai peserta dan Indra sebagai panitia acara. Mulai dari saling sapa, mereka berdua tumbuh perasaan saling ingin mengenal lebih dalam. Seusai acara, Indra memberanikan diri untuk membangun komunikasi dengan Dinda. Dari pesan singkat pertama yang dikirimnya, Indra dan Dinda mulai dekat dan menjadi lebih sering mengirim kabar. ',
-    image: ImgKembaliBerjumpa,
+      '📱Khoảng cách địa lý chẳng thể chia lìa hai trái tim đồng điệu. Những tin nhắn chúc ngủ ngon, những cuộc gọi xuyên đêm… tất cả đều là minh chứng cho một tình yêu bền bỉ và kiên cường. ',
+    image: SaiGon,
   },
   {
-    title: 'Kisah Kasih di Kampus',
-    date: 'Oktober 2017 - 2018',
+    title: 'Đà Nẵng Tươi Đẹp ',
+    date: '2022 - 2024',
     description:
-      'Sebagai sepasang mahasiswa dan mahasiswi, Dinda dan Indra memilih untuk mengisi kisah kasih di kampusnya dengan mengikuti berbagai kompetisi bersama. Kala itu, Dinda adalah mahasiswi Ilmu Komunikasi dan Indra adalah mahasiswa Teknik Informatika. Merupakan kolaborasi yang pas jika mengikuti kompetisi teknologi, Indra berperan sebagai seorang programmer dan Dinda sebagai seorang content development. Dinda dan Indra pernah membuat aplikasi Ayo Toba (Aplikasi Pariwisata Danau Toba) yang diajukan dalam kompetisi IT FEST Universitas Sumatera Utara di awal tahun 2018.',
-    image: ImgJakartaKroasia,
+      '🏖️ Chúng mình được sống gần nhau, cùng nhau nấu ăn, cùng đi chợ và khám phá những góc nhỏ xinh của thành phố biển. Đà Nẵng không chỉ đẹp vì biển, mà đẹp hơn vì có "chúng mình". ',
+    image: DaNang,
   },
   {
-    title: 'Jakarta & Kroasia',
-    date: '2018 - 2019',
+    title: 'Tốt Nghiệp ',
+    date: 'March 2024',
     description:
-      'Tidak selalu bersama, perjuangan dimulai ketika Indra memutuskan untuk bekerja di Jakarta sebagai seorang Software Engineer di Tokopedia. Belum usai masa LDR, pada 3 Oktober 2018, Dinda juga memutuskan untuk mengambil beasiswa di University of Split, Kroasia. Di bulan November 2018, Indra melangsungkan wisuda dan Dinda hanya bisa memberi virtual support melalui video call. ',
-    image: ImgBoarding,
+      'Ngày mình khoác áo cử nhân, ánh mắt nhìn nhau lấp lánh hơn cả huy chương. Không phải chỉ vì tốt nghiệp, mà vì sau bao cố gắng – chúng mình đã cùng nhau đi qua một chặng đường dài ✨❤️. Một cái ôm chặt hôm ấy thay ngàn lời “Tụi mình giỏi quá rồi đó nha!” 🥹🎉 ',
+    image: TotNghiep,
   },
   {
-    title: 'Kembali ke Indonesia',
-    date: '3 Maret 2019',
+    title: 'Chuyến đi đảo Lý Sơn ',
+    date: '11 August 2023',
     description:
-      'Periode belajar di Kroasia telah selesai. Akhirnya Dinda kembali ke Indonesia! Ada tanggung jawab yang harus Dinda selesaikan seusai dari Kroasia, yakni harus menyelesaikan skripsi dan mencapai target untuk wisuda di bulan Agustus 2019. Selain itu, kembalinya Dinda ke Indonesia menjadi momen yang tepat bagi Indra untuk menyampaikan niat ingin serius kepada orang tua Dinda. Hal itu disambut baik oleh kedua orang tua mereka  dan sepakat akan melaksanakan acara Ndodok Lawang usai Dinda wisuda. Sebelum wisuda, Dinda sudah harus meniti karir di Jakarta sebagai seorang Content Analyst di Ruangguru.',
-    image: ImgKembaliKeIndonesia,
+      '🌋Nắm tay nhau đi giữa gió biển Lý Sơn, ngắm hoàng hôn bên vách đá, chụp những tấm hình đáng yêu… Một chuyến đi nhỏ nhưng là một kỷ niệm lớn của tình yêu đôi mình.📸💖',
+    image: LySon,
   },
   {
-    title: 'Ndodok Lawang',
-    date: '31 Agustus 2019',
+    title: 'Chuyến đi Đà Lạt ',
+    date: 'March 2024',
     description:
-      'Akhirnya tiba di masa Indra dan keluarga hadir ke rumah Dinda untuk menyampaikan niat baik. Mulai dari acara Ndodok Lawang ini, dilanjutkan dengan persiapan pernikahan yang insha Allah akan diselenggarakan pada tanggal 3 Oktober 2020.',
-    image: ImgNdodokLawang,
+      '🌲Lạnh lạnh của sương sớm Đà Lạt làm người ta muốn ở gần nhau hơn. Những buổi cafe, dạo quanh hồ Xuân Hương hay trùm chăn kể chuyện ma, đều khiến tim mình ấm hơn bao giờ hết. ',
+    image: DaLat,
+  },
+  {
+    title: 'Chuyến đi Thái Lan',
+    date: 'July 2024',
+    description:
+      'Tay trong tay giữa Bangkok nhộn nhịp, cười rộn ràng ở chợ đêm và thử tất cả món ăn lạ. Chuyến đi nước ngoài đầu tiên cùng nhau, như một bước nhỏ tiến vào thế giới rộng lớn. 💼✈️',
+    image: Thailand,
+  },
+  {
+    title: 'Du học tại Hàn Quốc',
+    date: '2 September 2024',
+    description:
+      '🎓 Một chương mới bắt đầu. Tuy xa nhau lần nữa, nhưng trưởng thành hơn rồi – mình sẽ yêu bằng sự tin tưởng, chờ đợi bằng sự kiên trì, và hẹn ngày tái ngộ trong hạnh phúc trọn vẹn.',
+    image: HanQuoc,
   },
 ];

@@ -39,7 +39,6 @@ function Home({ location }) {
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
-        {isInvitation && <CovidSection />}
         {isInvitation && <LocationSection />}
         <StorySection />
         <PhotoSection />

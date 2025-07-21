@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/p-dinda-2.jpg';
-import Groom from '@assets/images/p-indra.jpg';
+import Bride from '@assets/images/p-quynh.jpg';
+import Groom from '@assets/images/p-bang.jpg';
 
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '21 August 2025, HARRIS Hotel Sentraland, Semarang' : 'Sabtu, 21 August 2025';
+  const finalSubtitle = isInvitation ? '21 August 2025, Nhà hàng Long Phụng' : 'Sabtu, 21 August 2025';
 
   return (
     <Fragment>
@@ -15,12 +15,11 @@ function HelloSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">Assalamualaikum Wr. Wb</h2>
+              <h2 className="main-font">Chúng Mình Nè</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
-                Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk
-                rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan
-                keberkahan.
+                Gặp nhau từ những ngày ngây ngô nhất. Yêu nhau qua tin nhắn, video call, những lần giận hờn... và bây
+                giờ là yêu nhau cả đời 💗.
               </p>
             </div>
           </div>
@@ -30,9 +29,9 @@ function HelloSection({ isInvitation }) {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Dinda Saraswati, S.I.Kom.</h3>
+                <h3 className="main-font">Nguyễn Văn Bàng.</h3>
                 <p className="parent-name parent-name__top">
-                  Putri Bapak Totok Somo Dipoyono <br />& Ibu Setyo Listiani
+                  Nguyễn Văn Hữu <br /> & Lê Thị Lan
                 </p>
               </div>
             </div>
@@ -47,35 +46,15 @@ function HelloSection({ isInvitation }) {
                 <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Indra Kusuma, S.Kom.</h3>
+                <h3 className="main-font">Hồ Thị Như Quỳnh.</h3>
                 <p className="parent-name">
-                  Putra Bapak Bunari <br />& Ibu Suratun
+                  Hồ Dũng <br /> & Trần Thị Tâm
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {!isInvitation ? (
-        <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2 className="main-font">Seputar Covid-19</h2>
-                <p className="info">
-                  Berkaitan dengan kondisi pandemik saat ini, keberlangsungan acara kami mengacu pada pedoman
-                  Kementerian Kesehatan, yaitu memberlakukan pembatasan jarak dan pembatasan jumlah tamu undangan.
-                </p>
-                <p className="info">
-                  Maka dari itu, dengan segala kerendahan hati, kami mohon maaf jika belum bisa mengundang saudara/i
-                  dihari bahagia kami. Sekiranya do'a dari saudara/i sudah lebih dari cukup bagi kami. Semoga kita semua
-                  selalu dalam lindungan Allah SWT. Aamiin ya rabbal allamiin..
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      ) : null}
     </Fragment>
   );
 }

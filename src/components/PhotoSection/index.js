@@ -24,11 +24,13 @@ function PhotoSection() {
         <div className="row">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">#TheKusuma</h2>
+              <h2 className="main-font">#Bang & Quynh</h2>
               <p className="sub-title">
-                "And of His signs is that He created for you from yourselves mates that you may find tranquility in
-                them; and He placed between you affection and mercy. Indeed in that are signs for a people who give
-                thought" <br />
+                "Có những khoảnh khắc trong đời, dù chỉ lướt qua cũng đủ để khắc ghi mãi mãi. Hành trình của tụi mình
+                bắt đầu từ những ánh mắt ngại ngùng thuở học trò, đi qua những năm tháng yêu xa, cùng nhau trưởng thành,
+                cùng nhau mơ ước. Hôm nay, khi đã đến được bên nhau – tụi mình muốn mời bạn cùng nhìn lại những hình ảnh
+                ngọt ngào ấy… từng nụ cười, từng chuyến đi, từng khoảnh khắc của hai trái tim đã chọn nhau giữa thế giới
+                rộng lớn này. Cảm ơn vì đã ở đây để chứng kiến câu chuyện tình yêu của Bang và Quỳnh 💗" <br />
                 (Ar-Rum 30:21).
               </p>
             </div>

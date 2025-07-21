@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import { styWrapper } from './styles';
-import { cx } from '@emotion/css';
 
 function createHeart(container) {
   const heart = document.createElement('div');

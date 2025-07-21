@@ -38,7 +38,9 @@ export const styWrapper = css`
     background-image: url(${heartImg});
     background-size: contain;
     background-repeat: no-repeat;
-    animation: ${fall} linear;
+    animation-name: ${fall};
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
     opacity: 0.8;
   }
 `;

@@ -25,7 +25,7 @@ function WeddingSection({ isInvitation }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
-              <h2 className="main-font main-font__wedding">Akad Nikah dan Syukuran Pernikahan</h2>
+              <h2 className="main-font main-font__wedding">Hôn Lễ</h2>
               <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
             </div>
           </div>
@@ -34,16 +34,16 @@ function WeddingSection({ isInvitation }) {
             {isInvitation && (
               <div className="col-md-10 col-md-offset-1">
                 <WeddingInfoBox
-                  title="Akad Nikah"
+                  title="Lễ Vu Quy"
                   time="Akan dilaksanakan pagi hari "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
+                  date="Thursday, 21 August 2025"
+                  description="Nhà Gái <br/>Nam Phổ Hạ, Lộc An, Thành phố Huế"
                 />
                 <WeddingInfoBox
-                  title="Syukuran Pernikahan"
+                  title="Lễ Thành Hôn"
                   time="Sesuai jadwal undangan di e-ticket "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
+                  date="Thursday, 21 August 2025"
+                  description="Nhà Trai <br/>Thuận Hóa, Hưng Lộc, Thành phố Huế"
                 />
               </div>
             )}
