@@ -8,7 +8,7 @@ import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
 const IMAGE_URL = `https://thekusuma.com/static/slide-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
-const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Dinda & Indra`;
+const META_DESCRIPTION = `Bang & Quỳnh – Hành trình yêu thương từ thuở học trò đến ngày về chung một nhà. Cùng nhau viết nên chuyện tình ngọt ngào qua từng kỷ niệm và khoảnh khắc đáng nhớ.`;
 
 function MainLayout({ children }) {
   return (
@@ -20,12 +20,12 @@ function MainLayout({ children }) {
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="The Wedding of Bang & Quynh" />
+        <meta property="og:title" content="The Wedding of Bàng & Quỳnh" />
         <meta property="og:image" content={IMAGE_URL} />
         {/* <meta property="og:url" content="https://thekusuma.com" /> */}
-        <meta property="og:site_name" content="The Wedding of Bang & Quynh" />
+        <meta property="og:site_name" content="The Wedding of Bàng & Quỳnh" />
         <meta property="og:description" content={META_DESCRIPTION} />
-        {/* <meta name="twitter:title" content="The Wedding of Bang & Quynh" /> */}
+        {/* <meta name="twitter:title" content="The Wedding of Bàng & Quỳnh" /> */}
         {/* <meta name="twitter:description" content={META_DESCRIPTION} /> */}
         {/* <meta name="twitter:image" content={IMAGE_URL} /> */}
         {/* <meta name="twitter:url" content="https://thekusuma.com" /> */}

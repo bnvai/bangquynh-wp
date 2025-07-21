@@ -7,10 +7,10 @@ function PhotoSection() {
   const renderYoutubeVideo = () => {
     return (
       <iframe
-        title="Pre-Wedding Dinda & Indra"
+        title="Pre-Wedding Bàng & Quỳnh"
         width="100%"
         height="360px"
-        src="https://www.youtube.com/embed/75w39OY7N-k"
+        src="https://www.youtube.com/embed/EEF4cj2wMSk"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
@@ -24,7 +24,7 @@ function PhotoSection() {
         <div className="row">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">#Bang & Quynh</h2>
+              <h2 className="main-font">#Bàng & Quỳnh</h2>
               <p className="sub-title">
                 "Có những khoảnh khắc trong đời, dù chỉ lướt qua cũng đủ để khắc ghi mãi mãi. Hành trình của tụi mình
                 bắt đầu từ những ánh mắt ngại ngùng thuở học trò, đi qua những năm tháng yêu xa, cùng nhau trưởng thành,

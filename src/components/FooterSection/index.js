@@ -31,7 +31,7 @@ function FooterSection({ isInvitation }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2025 Bang & Quynh Wedding. All Rights Reserved.</small>
+                <small className="block">&copy; 2025 Bàng & Quỳnh Wedding. All Rights Reserved.</small>
                 <small className="block">
                   Covid-19 Icon by{' '}
                   <a href="https://www.flaticon.com/packs/covid-protection-measures-5" target="_blank" rel="noreferrer">
