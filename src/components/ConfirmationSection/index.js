@@ -15,15 +15,15 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <h2 className="main-font">{` Apakah kamu hadir, ${guestName}?`}</h2>
             <p>
-              Atas kehadiran & do'a restu saudara/i, <br /> kami ucapkan terima kasih. Wassalamualaikum Warahmatullahi
-              Wabarakatuh.
+              Sự hiện diện và lời chúc phúc của quý anh/chị/bạn là niềm vinh hạnh to lớn đối với gia đình chúng tôi/i,{' '}
+              <br /> Xin chân thành cảm ơn và kính chúc quý vị sức khỏe, hạnh phúc và bình an.
             </p>
           </div>
         </div>
         <div className="row" css={styFlex}>
           <div className="col-md-3">
             <Link to={`e-ticket?${codeLink}`}>
-              <button className="btn btn-default btn-block">Lihat e-Ticket</button>
+              <button className="btn btn-default btn-block">Link e-Ticket</button>
             </Link>
           </div>
         </div>

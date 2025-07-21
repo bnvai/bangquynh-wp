@@ -16,6 +16,7 @@ import ConfirmationSection from '@components/ConfirmationSection';
 import FooterSection from '@components/FooterSection';
 import CovidSection from '@components/Covid19';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
+import HeartRain from '@components/HeartRain';
 
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
@@ -61,6 +62,7 @@ function Home({ location }) {
       />
       {renderDetailContent()}
       <FloatingMusic />
+      <HeartRain />
     </MainLayout>
   );
 }
