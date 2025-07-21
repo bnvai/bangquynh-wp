@@ -1,4 +1,5 @@
-import { useEffect } from 'react';
+/** @jsxImportSource @emotion/react */
+import { useEffect, useRef } from 'react';
 import { styWrapper } from './styles';
 
 function createHeart(container) {
@@ -16,18 +17,13 @@ function createHeart(container) {
 }
 
 function HeartRain() {
+  const containerRef = useRef(null);
+
   useEffect(() => {
     if (window.heartRainStarted) return;
     window.heartRainStarted = true;
 
-    const container = document.createElement('div');
-    container.className = 'heart-container';
-
-    // Gắn Emotion style
-    const wrapper = document.createElement('div');
-    wrapper.setAttribute('css', styWrapper.styles); // emotion-in-js style
-    wrapper.appendChild(container);
-    document.body.appendChild(wrapper);
+    const container = containerRef.current;
 
     const interval = setInterval(() => {
       if (Math.random() < 0.7) createHeart(container);
@@ -35,11 +31,14 @@ function HeartRain() {
 
     return () => {
       clearInterval(interval);
-      wrapper.remove();
     };
   }, []);
 
-  return null;
+  return (
+    <div css={styWrapper}>
+      <div className="heart-container" ref={containerRef}></div>
+    </div>
+  );
 }
 
 export default HeartRain;
