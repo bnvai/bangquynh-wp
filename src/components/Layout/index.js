@@ -30,7 +30,7 @@ function MainLayout({ children }) {
         {/* <meta name="twitter:image" content={IMAGE_URL} /> */}
         {/* <meta name="twitter:url" content="https://thekusuma.com" /> */}
         {/* <meta name="twitter:card" content="summary" /> */}
-        {/* <meta name="twitter:creator" content="@idindrakusuma" /> */}
+        {/* <meta name="twitter:creator" content="@idQuỳnhkusuma" /> */}
 
         <link
           href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"
