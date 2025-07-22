@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 import { styWrapper } from '../HelloSection/styles';
 
+import footerBg from '@assets/images/footer-bg.jpg';
+
 function FooterSection({ isInvitation }) {
   return (
     <Fragment>
@@ -33,7 +35,7 @@ function FooterSection({ isInvitation }) {
           </div>
         </div>
       )}
-      <footer id="fh5co-footer" role="contentinfo">
+      <footer id="fh5co-footer" role="contentinfo" style={{ '--footer-bg-image': `url(${footerBg})` }}>
         <div className="container">
           <div className="row copyright">
             <div className="col-md-12 text-center">

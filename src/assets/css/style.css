@@ -1431,7 +1431,7 @@ form label {
 }
 
 #fh5co-footer {
-  background-image: url('/images/footer-bg.jpg');
+  background-image: var(--footer-bg-image);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
