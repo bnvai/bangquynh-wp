@@ -56,32 +56,39 @@ function TicketData({ guest, configData }) {
         bị kẹt ở vũ trụ song song 🌀 thì vẫn có thể “góp vui từ xa” bằng cách cực kỳ hiện đại phía dưới đây nha 😚
       </p>
 
-      {/* QR Code chuyển khoản */}
-      <div id="qrcode" style={{ textAlign: 'center', margin: '20px auto' }}>
-        <img
-          src={qrImage}
-          alt="Mã QR chuyển khoản ngân hàng"
-          style={{ width: 220, height: 220, borderRadius: 12, border: '1px solid #ccc' }}
-        />
-        <p style={{ fontSize: 14, color: '#999', marginTop: 8 }}>
-          Quét mã bằng app ngân hàng để chuyển khoản nhanh gọn lẹ nha 📱
-        </p>
-      </div>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 32, flexWrap: 'wrap' }}>
+        {/* QR Code chuyển khoản */}
+        <div style={{ textAlign: 'center' }}>
+          <img
+            src={qrImage}
+            alt="Mã QR chuyển khoản ngân hàng"
+            style={{
+              width: 220,
+              height: 220,
+              borderRadius: 12,
+              border: '1px solid #ccc',
+              display: 'block',
+              margin: '0 auto',
+            }}
+          />
+          <p style={{ fontSize: 14, color: '#999', marginTop: 8 }}>QR cho nhanh gọn lẹ nha 📱</p>
+        </div>
 
-      {/* Thông tin ngân hàng */}
-      <div style={{ marginTop: 16, fontSize: 18, lineHeight: 1.6, color: '#333' }}>
-        <p>
-          🏦 <strong>Ngân hàng:</strong> Vietcombank
-        </p>
-        <p>
-          🔢 <strong>Số tài khoản:</strong> 1051504398
-        </p>
-        <p>
-          👤 <strong>Chủ tài khoản:</strong> Hồ Thị Như Quỳnh
-        </p>
-        <p>
-          📝 <strong>Nội dung:</strong> {guest.code || guest.name}
-        </p>
+        {/* Thông tin ngân hàng */}
+        <div style={{ fontSize: 18, lineHeight: 1.6, color: '#333' }}>
+          <p>
+            🏦 <strong>Ngân hàng:</strong> Vietcombank
+          </p>
+          <p>
+            🔢 <strong>Số tài khoản:</strong> 1051504398
+          </p>
+          <p>
+            👤 <strong>Chủ tài khoản:</strong> Hồ Thị Như Quỳnh
+          </p>
+          <p>
+            📝 <strong>Nội dung:</strong> {guest.code || guest.name}
+          </p>
+        </div>
       </div>
 
       {/* Nhập lời nhắn */}
