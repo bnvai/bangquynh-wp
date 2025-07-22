@@ -125,7 +125,7 @@ export const styBackground = css`
   background-image: url(${Background});
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,11 +133,13 @@ export const styBackground = css`
   @media screen and (max-width: 500px) {
     background-position: top center;
     background-size: contain;
+    height: 60vh;
   }
 
   @media screen and (max-width: 400px) {
     background-position: top center;
     background-size: contain;
+    height: 40vh;
   }
 
   @media screen and (max-width: 400px) {

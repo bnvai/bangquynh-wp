@@ -32,7 +32,7 @@ export const styWrapper = css`
 
   .heart {
     position: absolute;
-    top: -70px;
+    top: 0px;
     width: 16px;
     height: 16px;
     background-image: url(${heartImg});
@@ -42,5 +42,10 @@ export const styWrapper = css`
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     opacity: 0.8;
+
+    @media screen and (max-width: 500px) {
+      width: 24px;
+      height: 24px;
+    }
   }
 `;
