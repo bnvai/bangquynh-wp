@@ -1,4 +1,4 @@
-import { css, keyframes } from '@emotion/react';
+import { css, keyframes } from '@emotion/core';
 import heartImg from '@assets/images/heart.png';
 
 const fall = keyframes`
