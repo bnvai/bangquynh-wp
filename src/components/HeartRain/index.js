@@ -19,10 +19,9 @@ function HeartRain() {
   const containerRef = useRef(null);
 
   useEffect(() => {
-    if (window.heartRainStarted) return;
-    window.heartRainStarted = true;
-
     const container = containerRef.current;
+    if (!container) return;
+
     const interval = setInterval(() => {
       if (Math.random() < 0.7) createHeart(container);
     }, 500);
@@ -33,7 +32,7 @@ function HeartRain() {
   }, []);
 
   return (
-    <div className={styWrapper}>
+    <div css={styWrapper}>
       <div className="heart-container" ref={containerRef}></div>
     </div>
   );

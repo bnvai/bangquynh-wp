@@ -7,7 +7,7 @@ import Groom from '@assets/images/p-bang.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '21 August 2025, Nhà hàng Long Phụng' : 'Sabtu, 21 August 2025';
+  const finalSubtitle = isInvitation ? '21 August 2025, Nhà hàng Long Phụng' : 'TP Huế, 21 tháng 8 năm 2025';
 
   return (
     <Fragment>
@@ -26,7 +26,7 @@ function HelloSection({ isInvitation }) {
           <div className="couple-wrap">
             <div className="couple-half">
               <div className="groom">
-                <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
+                <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
                 <h3 className="main-font">Nguyễn Văn Bàng.</h3>
@@ -43,7 +43,7 @@ function HelloSection({ isInvitation }) {
             </div>
             <div className="couple-half">
               <div className="bride">
-                <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
+                <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
                 <h3 className="main-font">Hồ Thị Như Quỳnh.</h3>

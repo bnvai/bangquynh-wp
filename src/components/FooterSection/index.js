@@ -10,16 +10,23 @@ function FooterSection({ isInvitation }) {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2 className="main-font">Terima Kasih</h2>
+                <h2 className="main-font">Lời Cảm Ơn</h2>
                 <p className="info">
-                  Berdasarkan kondisi saat ini, tanpa mengurangi rasa hormat, diharapkan tetap bisa menjalin silaturahmi
-                  melalui media online, bukan dengan kontak fisik secara langsung. <br />
-                  Mohon pengertiannya.
+                  Từ tận đáy lòng, chúng mình xin gửi lời cảm ơn chân thành đến gia đình, bạn bè và tất cả những ai đã
+                  dành thời gian, tình cảm và lời chúc tốt đẹp cho chúng mình trong dịp trọng đại này.
                 </p>
                 <p className="info">
-                  Atas segala do'a dan restu saudara/i,
-                  <br /> kami ucapkan terima kasih. <br />
-                  Wassalamualaikum warahmatullahi wabarakatuh.
+                  Dù quý vị có thể hiện diện hay chỉ gửi lời chúc từ xa, sự hiện diện và yêu thương của quý vị luôn là
+                  nguồn động viên to lớn đối với chúng tôi.
+                </p>
+                <p className="info">
+                  Một lần nữa, xin chân thành cảm ơn và kính chúc quý vị cùng gia đình luôn mạnh khỏe, bình an và hạnh
+                  phúc.
+                </p>
+                <p className="info">
+                  Trân trọng,
+                  <br />
+                  [Bàng] & [Quỳnh]
                 </p>
               </div>
             </div>
@@ -32,24 +39,7 @@ function FooterSection({ isInvitation }) {
             <div className="col-md-12 text-center">
               <p>
                 <small className="block">&copy; 2025 Bàng & Quỳnh Wedding. All Rights Reserved.</small>
-                <small className="block">
-                  Covid-19 Icon by{' '}
-                  <a href="https://www.flaticon.com/packs/covid-protection-measures-5" target="_blank" rel="noreferrer">
-                    Flat Icon - Frepik
-                  </a>
-                </small>
-                <small className="block">
-                  Song by{' '}
-                  <a href="https://www.youtube.com/watch?v=fb167KAxvrg" target="_blank" rel="noreferrer">
-                    Anandito Anisa - Pernikahan Impian
-                  </a>
-                </small>
-                <small className="block">
-                  Original Template from{' '}
-                  <a href="http://freehtml5.co/" target="_blank" rel="noreferrer">
-                    FREEHTML5.co
-                  </a>
-                </small>
+                <small className="block">💖 Làm bằng cả tấm lòng gửi đến người con gái của đời tôi.</small>
               </p>
             </div>
           </div>

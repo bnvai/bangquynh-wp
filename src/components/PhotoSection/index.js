@@ -26,12 +26,10 @@ function PhotoSection() {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">#Bàng & Quỳnh</h2>
               <p className="sub-title">
-                "Có những khoảnh khắc trong đời, dù chỉ lướt qua cũng đủ để khắc ghi mãi mãi. Hành trình của tụi mình
-                bắt đầu từ những ánh mắt ngại ngùng thuở học trò, đi qua những năm tháng yêu xa, cùng nhau trưởng thành,
-                cùng nhau mơ ước. Hôm nay, khi đã đến được bên nhau – tụi mình muốn mời bạn cùng nhìn lại những hình ảnh
-                ngọt ngào ấy… từng nụ cười, từng chuyến đi, từng khoảnh khắc của hai trái tim đã chọn nhau giữa thế giới
-                rộng lớn này. Cảm ơn vì đã ở đây để chứng kiến câu chuyện tình yêu của Bang và Quỳnh 💗" <br />
-                (Ar-Rum 30:21).
+                "Có những khoảnh khắc lướt qua nhưng khắc ghi mãi mãi. Hành trình của tụi mình bắt đầu từ ánh mắt thuở
+                học trò, đi qua yêu xa, cùng nhau lớn lên và mơ ước. Hôm nay, khi đã nắm tay nhau trọn vẹn, tụi mình mời
+                bạn cùng nhìn lại những nụ cười, chuyến đi, và những giây phút ngọt ngào mà hai trái tim đã chọn nhau
+                giữa thế giới rộng lớn này. Cảm ơn vì đã ở đây – chứng kiến câu chuyện tình yêu của Chúng Mình 💗".
               </p>
             </div>
           </div>
