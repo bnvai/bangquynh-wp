@@ -33,8 +33,8 @@ function ETicket({ location }) {
         }
       }
 
-      alert(`Maaf, Kode data ${guestCode} tidak ditemukan. Mohon di cek lagi..`);
-      window.location.assign('https://thekusuma.com');
+      alert(`Sorry, the data code ${guestCode} was not found... Please check again.`);
+      window.location.assign('https://google.com');
     },
     [data, nameEticket, value],
   );
@@ -58,7 +58,7 @@ function ETicket({ location }) {
           {isShowTicket ? (
             <Ticket guest={selectedGuest} configData={configData} />
           ) : (
-            <h3 style={{ fontSize: '1.7rem' }}>🧑‍💻Validasi data tamu.. Mohon tunggu..</h3>
+            <h3 style={{ fontSize: '1.7rem' }}>🧑‍💻Validate data. Waiting..</h3>
           )}
         </div>
       </div>

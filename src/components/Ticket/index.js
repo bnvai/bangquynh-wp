@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import QRCode from 'react-qr-code';
 import { object } from 'prop-types';
 import { Link } from 'gatsby';
@@ -8,6 +8,8 @@ import qrImage from '@assets/images/QR.jpg';
 
 function TicketData({ guest, configData }) {
   const [message, setMessage] = useState('');
+
+  console.log('useState:', useState);
   // Thay URL Google Apps Script của bạn vào đây
   const GOOGLE_SHEET_URL =
     'https://script.google.com/macros/s/AKfycbwrnp8Nz6dXBMcCtAof5B1PtUjlaaeCmnuGrtDdCk__sea7xzZYQX9KbjW7pxURaoPKAg/exec';
