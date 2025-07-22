@@ -130,18 +130,6 @@ export const styBackground = css`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 500px) {
-    background-position: top center;
-    background-size: contain;
-    height: 60vh;
-  }
-
-  @media screen and (max-width: 400px) {
-    background-position: top center;
-    background-size: contain;
-    height: 40vh;
-  }
-
   @media screen and (max-width: 400px) {
     .title {
       font-size: 40px;
