@@ -2,87 +2,112 @@ import { css } from '@emotion/core';
 
 export const styWrapper = css`
   @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Work+Sans:wght@300;400;600&display=swap');
 
   .container {
     margin: 30px auto;
     overflow: hidden;
-    box-shadow: 0 0 10px rgb(202, 202, 204);
-    background-color: ;
-    border-radius: 2px;
-    padding: 0 16px;
-  }
-
-  .ticket {
-    display: flex;
-
-    #qrcode {
-      justify-content: center;
-      align-content: center;
-      margin: 12px auto;
-    }
+    box-shadow: 0 0 12px rgba(202, 202, 204, 0.5);
+    background-color: #fffafc;
+    border-radius: 12px;
+    padding: 0 24px;
   }
 
   .details {
-    color: #828282;
-    padding: 16px 0;
-    border-top: 1px dashed #c3c3c3;
+    color: #555;
+    padding: 24px 0;
+    border-top: 1px dashed #f7a6c1;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
   }
 
   .tinfo {
-    font-size: 10px;
-    font-weight: 300;
-    color: #555;
-    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #f14e95;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin: 16px 0 0 0;
+    margin: 20px 0 6px;
   }
 
   .tdata {
     font-size: 1em;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.5px;
     margin: 0;
+    color: #333;
   }
 
-  .additional {
-    font-size: 10px;
+  .tdata.additional {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
   }
 
   .name {
-    font-size: 1.3em;
-    font-weight: 500;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #e91e63;
   }
 
-  .masinfo {
-    display: block;
-  }
-  .left,
-  .right {
-    width: 49%;
-    display: inline-table;
+  #qrcode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
   }
 
-  .nesp {
-    letter-spacing: 0px;
+  .badge {
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 4px 10px;
+  }
+
+  .badge-success {
+    background-color: #a5d6a7;
+    color: #1b5e20;
   }
 
   .btn {
     margin-right: 4px;
-    margin-bottom: 4px;
-    font-family: 'Work Sans', Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
+    margin-top: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
     border-radius: 30px;
-    transition: 0.5s;
-    padding: 8px 20px;
+    transition: 0.3s;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
   }
 
   .primary {
     background: #f14e95;
     color: #fff;
-    border: none;
+  }
+
+  .btn.attend {
+    background: #ff80ab;
+    color: white;
+  }
+
+  .btn.decline {
+    background: #ccc;
+    color: #333;
+  }
+
+  ul {
+    text-align: left;
+    margin: 12px auto;
+    display: inline-block;
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  textarea {
+    font-family: 'Work Sans', sans-serif;
   }
 `;
 
