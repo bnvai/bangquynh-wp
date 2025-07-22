@@ -4,7 +4,7 @@ import { object } from 'prop-types';
 import { Link } from 'gatsby';
 
 import { styWrapper } from './styles';
-import qrImage from '@assets/QR.jpg';
+import qrImage from '@assets/images/QR.jpg';
 
 function TicketData({ guest, configData }) {
   const [message, setMessage] = useState('');
