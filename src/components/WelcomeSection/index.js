@@ -78,9 +78,9 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               {isInvitation && (
                 <div className="row" css={styButtonWrapper}>
                   <div className="col-md-3">
-                    <Link to={`/e-ticket?${codeLink}`}>
-                      <button className="btn btn-default btn-block">Link e-Ticket</button>
-                    </Link>
+                    {/* <Link to={`/e-ticket?${codeLink}`}>
+                      <button className="btn btn-default btn-block">Tặng Quà</button>
+                    </Link> */}
                   </div>
                 </div>
               )}
