@@ -14,7 +14,6 @@ import PhotoSection from '@components/PhotoSection/Loadable';
 import WishesSection from '@components/WishesSection';
 import ConfirmationSection from '@components/ConfirmationSection';
 import FooterSection from '@components/FooterSection';
-import CovidSection from '@components/Covid19';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
 import HeartRain from '@components/HeartRain';
 
@@ -37,6 +36,7 @@ function Home({ location }) {
 
     return (
       <Fragment>
+        <HeartRain />
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
         {isInvitation && <LocationSection />}
@@ -61,7 +61,6 @@ function Home({ location }) {
       />
       {renderDetailContent()}
       <FloatingMusic />
-      <HeartRain />
     </MainLayout>
   );
 }

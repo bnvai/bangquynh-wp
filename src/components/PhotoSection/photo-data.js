@@ -64,24 +64,50 @@ import Gallery32 from '@assets/images/gallery-32.jpg';
 import GalleryT32 from '@assets/images/gallery-t-32.jpg';
 import Gallery33 from '@assets/images/gallery-33.jpg';
 import GalleryT33 from '@assets/images/gallery-t-33.jpg';
+import Gallery34 from '@assets/images/gallery-34.jpg';
+import GalleryT34 from '@assets/images/gallery-t-34.jpg';
+import Gallery35 from '@assets/images/gallery-35.jpg';
+import GalleryT35 from '@assets/images/gallery-t-35.jpg';
+import Gallery36 from '@assets/images/gallery-36.jpg';
+import GalleryT36 from '@assets/images/gallery-t-36.jpg';
+import Gallery37 from '@assets/images/gallery-37.jpg';
+import GalleryT37 from '@assets/images/gallery-t-37.jpg';
+import Gallery38 from '@assets/images/gallery-38.jpg';
+import GalleryT38 from '@assets/images/gallery-t-38.jpg';
+import Gallery39 from '@assets/images/gallery-39.jpg';
+import GalleryT39 from '@assets/images/gallery-t-39.jpg';
+import Gallery40 from '@assets/images/gallery-40.jpg';
+import GalleryT40 from '@assets/images/gallery-t-40.jpg';
+import Gallery41 from '@assets/images/gallery-41.jpg';
+import GalleryT41 from '@assets/images/gallery-t-41.jpg';
+import Gallery42 from '@assets/images/gallery-42.jpg';
+import GalleryT42 from '@assets/images/gallery-t-42.jpg';
+import Gallery43 from '@assets/images/gallery-43.jpg';
+import GalleryT43 from '@assets/images/gallery-t-43.jpg';
+import Gallery44 from '@assets/images/gallery-44.jpg';
+import GalleryT44 from '@assets/images/gallery-t-44.jpg';
+import Gallery45 from '@assets/images/gallery-45.jpg';
+import GalleryT45 from '@assets/images/gallery-t-45.jpg';
+import Gallery46 from '@assets/images/gallery-46.jpg';
+import GalleryT46 from '@assets/images/gallery-t-46.jpg';
 
 export const photos = [
   {
     original: Gallery1,
     thumbnail: GalleryT1,
   },
-  {
-    original: Gallery2,
-    thumbnail: GalleryT2,
-  },
+  // {
+  //   original: Gallery2,
+  //   thumbnail: GalleryT2,
+  // },
   {
     original: Gallery3,
     thumbnail: GalleryT3,
   },
-  {
-    original: Gallery4,
-    thumbnail: GalleryT4,
-  },
+  // {
+  //   original: Gallery4,
+  //   thumbnail: GalleryT4,
+  // },
   {
     original: Gallery5,
     thumbnail: GalleryT5,
@@ -147,6 +173,10 @@ export const photos = [
     thumbnail: GalleryT20,
   },
   {
+    original: Gallery33,
+    thumbnail: GalleryT33,
+  },
+  {
     original: Gallery21,
     thumbnail: GalleryT21,
   },
@@ -170,14 +200,14 @@ export const photos = [
     original: Gallery26,
     thumbnail: GalleryT26,
   },
-  {
-    original: Gallery27,
-    thumbnail: GalleryT27,
-  },
-  {
-    original: Gallery28,
-    thumbnail: GalleryT28,
-  },
+  // {
+  //   original: Gallery27,
+  //   thumbnail: GalleryT27,
+  // },
+  // {
+  //   original: Gallery28,
+  //   thumbnail: GalleryT28,
+  // },
   {
     original: Gallery29,
     thumbnail: GalleryT29,
@@ -190,8 +220,54 @@ export const photos = [
     original: Gallery31,
     thumbnail: GalleryT31,
   },
+  // {
+  //   original: Gallery32,
+  //   thumbnail: GalleryT32,
+  // },
   {
-    original: Gallery32,
-    thumbnail: GalleryT32,
+    original: Gallery36,
+    thumbnail: GalleryT36,
   },
+  // {
+  //   original: Gallery39,
+  //   thumbnail: GalleryT39,
+  // },
+  // {
+  //   original: Gallery44,
+  //   thumbnail: GalleryT44,
+  // },
+
+  {
+    original: Gallery34,
+    thumbnail: GalleryT34,
+  },
+  {
+    original: Gallery37,
+    thumbnail: GalleryT37,
+  },
+  {
+    original: Gallery40,
+    thumbnail: GalleryT40,
+  },
+  {
+    original: Gallery41,
+    thumbnail: GalleryT41,
+  },
+  {
+    original: Gallery42,
+    thumbnail: GalleryT42,
+  },
+  // {
+  //   original: Gallery43,
+  //   thumbnail: GalleryT43,
+  // },
+  // {
+  //   original: Gallery46,
+  //   thumbnail: GalleryT46,
+  // },
+
+  // {
+  //   original: Gallery35,
+  //   thumbnail: GalleryT35,
+  // },
 ];
