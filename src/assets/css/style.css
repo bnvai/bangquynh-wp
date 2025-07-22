@@ -310,7 +310,7 @@ figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -323,12 +323,19 @@ figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
   z-index: 10;
 }
+
+@media screen and (min-width: 1920px) {
+  .fh5co-cover {
+    height: 100vh;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;

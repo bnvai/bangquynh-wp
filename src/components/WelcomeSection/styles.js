@@ -1,5 +1,7 @@
 import { css, keyframes } from '@emotion/core';
 import Background from '@assets/images/bg-welcome.jpg';
+import BackgroundDesktop from '@assets/images/desktop-bg.jpg'; // 1920x1080
+import BackgroundMobile from '@assets/images/mobile-bg.jpg'; // 1080x1920
 
 export const styHero = css`
   width: 100%;
@@ -122,13 +124,19 @@ export const styScrollWrapper = css`
 
 export const styBackground = css`
   background-size: cover;
-  background-image: url(${Background});
+  background-image: url(${BackgroundDesktop});
   background-position: center;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    background-image: url(${BackgroundMobile});
+    background-size: cover;
+    background-position: top center;
+  }
 
   @media screen and (max-width: 400px) {
     .title {
