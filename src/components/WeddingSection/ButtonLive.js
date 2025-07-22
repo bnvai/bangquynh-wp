@@ -1,6 +1,6 @@
 import React from 'react';
 
-import IconIg from './assets/facebook.png';
+import IconIg from '@assets/images/facebook.png';
 import { styButtonWrapper } from './styles';
 
 function ButtonLive() {
