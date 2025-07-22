@@ -39,7 +39,7 @@ function FooterSection({ isInvitation }) {
             <div className="col-md-12 text-center">
               <p>
                 <small className="block">&copy; 2025 Bàng & Quỳnh Wedding. All Rights Reserved.</small>
-                <small className="block">💖 Làm bằng cả tấm lòng gửi đến người con gái của đời tôi.</small>
+                <small className="block">💖 Gửi ngàn trái tym đến người con gái của đời tôi.</small>
               </p>
             </div>
           </div>

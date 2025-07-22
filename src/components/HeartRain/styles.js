@@ -32,7 +32,7 @@ export const styWrapper = css`
 
   .heart {
     position: absolute;
-    top: -100px;
+    top: -70px;
     width: 16px;
     height: 16px;
     background-image: url(${heartImg});
