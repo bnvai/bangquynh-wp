@@ -4,6 +4,7 @@ import { object } from 'prop-types';
 import { Link } from 'gatsby';
 
 import { styWrapper } from './styles';
+import { styButtonWrapper } from './styles';
 import qrImage from '@assets/images/QR.jpg';
 
 function TicketData({ guest, configData }) {
@@ -123,7 +124,7 @@ function TicketData({ guest, configData }) {
       </div>
 
       {/* Nút RSVP */}
-      <div style={{ marginTop: 30, textAlign: 'center' }}>
+      <div css={styButtonWrapper}>
         <button className="btn attend" onClick={() => handleSubmitAttendance(true)}>
           🎉 Tôi sẽ tham gia!
         </button>
