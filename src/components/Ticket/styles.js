@@ -127,7 +127,7 @@ export const styTicket = css`
   }
 
   .title {
-    font-family: 'UVN Dam Cuoi', cursive;
+    font-family: 'UVN Dinh Hon', cursive;
     font-weight: 600;
     letter-spacing: 4px;
     font-size: 45px;

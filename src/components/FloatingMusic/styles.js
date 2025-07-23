@@ -54,7 +54,7 @@ export const styWrapperModal = css`
   }
 
   .title {
-    font-family: 'UVN Dam Cuoi', cursive;
+    font-family: 'UVN Dinh Hon', cursive;
     text-align: center;
     font-size: 50px;
     margin-bottom: 0px;
