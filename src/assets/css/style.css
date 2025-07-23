@@ -8,6 +8,27 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'UVN Dam Cuoi';
+  src: url('/fonts/UVNDamCuoi.woff2') format('woff2'), url('/fonts/UVNDamCuoi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UVN Dam Cuoi Hep';
+  src: url('/fonts/UVNDamCuoiHep.woff2') format('woff2'), url('/fonts/UVNDamCuoiHep.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UVN Dinh Hon';
+  src: url('/fonts/UVNDinhHon.woff2') format('woff2'), url('/fonts/UVNDinhHon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /* =======================================================
 *
 * 	Template Style
@@ -818,7 +839,7 @@ figure {
   position: absolute;
   left: 0;
   top: 0.05em;
-  font-family: 'Pacifico';
+  font-family: 'UVN Dam Cuoi';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -872,7 +893,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: 'Pacifico', Arial, serif;
+  font-family: 'UVN Dam Cuoi', Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -1098,7 +1119,7 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: 'Pacifico', Arial, serif;
+  font-family: 'UVN Dam Cuoi', Arial, serif;
   color: #f14e95;
   font-size: 30px;
 }
@@ -1938,7 +1959,7 @@ form label {
 }
 
 .main-font {
-  font-family: 'Pacifico', cursive !important;
+  font-family: 'UVN Dam Cuoi', cursive !important;
 }
 
 .and-love {

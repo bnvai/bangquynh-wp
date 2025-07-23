@@ -9,7 +9,7 @@ export const styWrapper = css`
 
   .title__sub {
     text-align: center;
-    font-family: 'Pacifico', cursive;
+    font-family: 'UVN Dam Cuoi', cursive;
     font-size: 3em;
   }
 `;

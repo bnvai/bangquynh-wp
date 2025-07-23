@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'UVN Hoa Tay 1';
+    src: url('UVNHoaTay1.woff2') format('woff2'),
+        url('UVNHoaTay1.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hoa Ky';
+    src: url('UVNHoaKy.woff2') format('woff2'),
+        url('UVNHoaKy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hoa Dao';
+    src: url('UVNHoaDao.woff2') format('woff2'),
+        url('UVNHoaDao.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hong Ha';
+    src: url('UVNHongHaBold.woff2') format('woff2'),
+        url('UVNHongHaBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hong Ha';
+    src: url('UVNHongHaItalic.woff2') format('woff2'),
+        url('UVNHongHaItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hong Ha';
+    src: url('UVNHongHaBoldItalic.woff2') format('woff2'),
+        url('UVNHongHaBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hong Ha Hep';
+    src: url('UVNHongHaHepBold.woff2') format('woff2'),
+        url('UVNHongHaHepBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hong Ha Hep';
+    src: url('UVNHongHaHepBoldItalic.woff2') format('woff2'),
+        url('UVNHongHaHepBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hong Ha';
+    src: url('UVNHongHa.woff2') format('woff2'),
+        url('UVNHongHa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Huong Que Nang';
+    src: url('UVNHuongQueNang.woff2') format('woff2'),
+        url('UVNHuongQueNang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hong Ha Hep';
+    src: url('UVNHongHaHepItalic.woff2') format('woff2'),
+        url('UVNHongHaHepItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Huong Que';
+    src: url('UVNHuongQueBold.woff2') format('woff2'),
+        url('UVNHuongQueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hong Ha Hep';
+    src: url('UVNHongHaHep.woff2') format('woff2'),
+        url('UVNHongHaHep.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Huong Que';
+    src: url('UVNHuongQue.woff2') format('woff2'),
+        url('UVNHuongQue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Ke Chuyen2';
+    src: url('UVNKeChuyen2.woff2') format('woff2'),
+        url('UVNKeChuyen2.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Ke Chuyen3';
+    src: url('UVNKeChuyen3.woff2') format('woff2'),
+        url('UVNKeChuyen3.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Ke Chuyen1';
+    src: url('UVNKeChuyen1.woff2') format('woff2'),
+        url('UVNKeChuyen1.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Ky Thuat';
+    src: url('UVNKyThuat.woff2') format('woff2'),
+        url('UVNKyThuat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Lac Long Quan';
+    src: url('UVNLacLongQuanBold.woff2') format('woff2'),
+        url('UVNLacLongQuanBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Kieu';
+    src: url('UVNKieu.woff2') format('woff2'),
+        url('UVNKieu.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Kieu';
+    src: url('UVNKieuBold.woff2') format('woff2'),
+        url('UVNKieuBold.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Lac Long Quan';
+    src: url('UVNLacLongQuan.woff2') format('woff2'),
+        url('UVNLacLongQuan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN La Xanh';
+    src: url('UVNLaXanhBoldItalic.woff2') format('woff2'),
+        url('UVNLaXanhBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN La Xanh';
+    src: url('UVNLaXanhItalic.woff2') format('woff2'),
+        url('UVNLaXanhItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN La Xanh';
+    src: url('UVNLaXanh.woff2') format('woff2'),
+        url('UVNLaXanh.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN La Xanh';
+    src: url('UVNLaXanhBold.woff2') format('woff2'),
+        url('UVNLaXanhBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Mang Cau';
+    src: url('UVNMangCauBold.woff2') format('woff2'),
+        url('UVNMangCauBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Ly Do';
+    src: url('UVNLyDo.woff2') format('woff2'),
+        url('UVNLyDo.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Mang Cau';
+    src: url('UVNMangCauItalic.woff2') format('woff2'),
+        url('UVNMangCauItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Mang Cau';
+    src: url('UVNMangCauBoldItalic.woff2') format('woff2'),
+        url('UVNMangCauBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

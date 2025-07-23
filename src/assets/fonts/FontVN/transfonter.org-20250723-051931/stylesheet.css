@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'UVN But Long 1';
+    src: url('UVNButLong1.woff2') format('woff2'),
+        url('UVNButLong1.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
