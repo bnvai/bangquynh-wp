@@ -17,7 +17,7 @@ export const styWrapper = css`
     color: #555;
     padding: 24px 0;
     border-top: 1px dashed #f7a6c1;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'UVN Chinh Luan', 'Work Sans', sans-serif;
     text-align: center;
   }
 
@@ -70,7 +70,7 @@ export const styWrapper = css`
   .btn {
     margin-right: 4px;
     margin-top: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'UVN Chinh Luan', 'Work Sans', sans-serif;
     font-size: 14px;
     font-weight: 500;
     border-radius: 30px;
@@ -107,7 +107,7 @@ export const styWrapper = css`
   }
 
   textarea {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'UVN Chinh Luan', sans-serif;
   }
 `;
 
@@ -151,7 +151,7 @@ export const styTicket = css`
     min-width: auto;
 
     input {
-      font-family: 'Work Sans', Courier, monospace;
+      font-family: 'UVN Chinh Luan', 'Work Sans', Courier, monospace;
       font-size: 18px;
       width: 100%;
       text-align: center;

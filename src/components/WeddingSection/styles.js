@@ -18,7 +18,7 @@ export const styWrapper = css`
   .sub-title {
     color: #fff !important;
     font-size: 16px;
-    font-family: 'Work Sans', Arial, sans-serif;
+    font-family: 'UVN Chinh Luan', 'Work Sans', Arial, sans-serif;
     font-weight: 400 !important;
 
     @media screen and (max-width: 400px) {

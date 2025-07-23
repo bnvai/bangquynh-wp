@@ -875,7 +875,7 @@ figure {
   position: absolute;
   left: 0;
   top: 0.05em;
-  font-family: 'UVN Dam Cuoi';
+  font-family: 'UVN Chinh Luan';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -929,7 +929,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: 'UVN Dam Cuoi', Arial, serif;
+  font-family: 'UVN Chinh Luan', Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -1155,7 +1155,7 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: 'UVN Dam Cuoi', Arial, serif;
+  font-family: 'UVN Chinh Luan', Arial, serif;
   color: #f14e95;
   font-size: 30px;
 }
@@ -1278,7 +1278,7 @@ form label {
   line-height: 1.5;
   font-weight: 500;
   color: #f14e95;
-  font-family: 'UVN Dam Cuoi', Arial, serif;
+  font-family: 'UVN Chinh Luan', Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1995,7 +1995,7 @@ form label {
 }
 
 .main-font {
-  font-family: 'UVN Dam Cuoi', cursive !important;
+  font-family: 'UVN Chinh Luan', cursive !important;
 }
 
 .and-love {
