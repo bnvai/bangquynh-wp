@@ -9,7 +9,7 @@ export const styWrapper = css`
 
   .title__sub {
     text-align: center;
-    font-family: 'Cookie', cursive;
+    font-family: 'Pacifico', cursive;
     font-size: 3em;
   }
 `;

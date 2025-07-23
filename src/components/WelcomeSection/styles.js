@@ -172,7 +172,7 @@ export const styWrapper = css`
     margin-bottom: 0px;
     font-size: 100px;
     line-height: 1.5;
-    font-family: 'Cookie', cursive;
+    font-family: 'Pacifico', cursive;
     color: #fff;
   }
 
@@ -185,7 +185,7 @@ export const styWrapper = css`
   }
 
   h4 {
-    font-family: 'Cookie', cursive;
+    font-family: 'Pacifico', cursive;
     margin: 0;
     color: #fff;
     font-size: 30px;

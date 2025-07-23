@@ -43,7 +43,7 @@ export const styWrapper = css`
     animation-fill-mode: forwards;
     opacity: 0.8;
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 768px) {
       width: 24px;
       height: 24px;
     }

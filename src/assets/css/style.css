@@ -14,7 +14,7 @@
 *
 * ======================================================= */
 body {
-  font-family: 'Work Sans', Arial, sans-serif;
+  font-family: 'Pacifico', Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -818,7 +818,7 @@ figure {
   position: absolute;
   left: 0;
   top: 0.05em;
-  font-family: 'icomoon';
+  font-family: 'Pacifico';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -872,7 +872,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: 'Sacramento', Arial, serif;
+  font-family: 'Pacifico', Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -1098,7 +1098,7 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: 'Sacramento', Arial, serif;
+  font-family: 'Pacifico', Arial, serif;
   color: #f14e95;
   font-size: 30px;
 }
@@ -1938,7 +1938,7 @@ form label {
 }
 
 .main-font {
-  font-family: 'Cookie', cursive !important;
+  font-family: 'Pacifico', cursive !important;
 }
 
 .and-love {

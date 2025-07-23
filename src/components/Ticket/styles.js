@@ -127,7 +127,7 @@ export const styTicket = css`
   }
 
   .title {
-    font-family: 'Cookie', cursive;
+    font-family: 'Pacifico', cursive;
     font-weight: 600;
     letter-spacing: 4px;
     font-size: 45px;
