@@ -11,21 +11,22 @@
 
 @font-face {
   font-family: 'UVN Dam Cuoi';
-  src: url('/fonts/UVNDamCuoi.woff2') format('woff2'), url('/fonts/UVNDamCuoi.woff') format('woff');
+  src: url('../fonts/FontVN/UVNDamCuoi.woff2') format('woff2'), url('../fonts/FontVN/UVNDamCuoi.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'UVN Dam Cuoi Hep';
-  src: url('/fonts/UVNDamCuoiHep.woff2') format('woff2'), url('/fonts/UVNDamCuoiHep.woff') format('woff');
+  src: url('../fonts/FontVN/UVNDamCuoiHep.woff2') format('woff2'),
+    url('../fonts/FontVN/UVNDamCuoiHep.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'UVN Dinh Hon';
-  src: url('/fonts/UVNDinhHon.woff2') format('woff2'), url('/fonts/UVNDinhHon.woff') format('woff');
+  src: url('../fonts/FontVN/UVNDinhHon.woff2') format('woff2'), url('../fonts/FontVN/UVNDinhHon.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
