@@ -30,13 +30,48 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'UVN Chinh Luan';
+  src: url('../fonts/FontVN/UVNChinhLuan.woff2') format('woff2'),
+    url('../fonts/FontVN/UVNChinhLuan.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'UVN Chinh Luan';
+  src: url('../fonts/FontVN/UVNChinhLuanBold.woff2') format('woff2'),
+    url('../fonts/FontVN/UVNChinhLuanBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'UVN Chinh Luan';
+  src: url('../fonts/FontVN/UVNChinhLuanItalic.woff2') format('woff2'),
+    url('../fonts/FontVN/UVNChinhLuanItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'UVN Chinh Luan';
+  src: url('../fonts/FontVN/UVNChinhLuanBoldItalic.woff2') format('woff2'),
+    url('../fonts/FontVN/UVNChinhLuanBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
 /* =======================================================
 *
 * 	Template Style
 *
 * ======================================================= */
 body {
-  font-family: 'UVN Dinh Hon', Arial, sans-serif;
+  font-family: 'UVN Chinh Luan', Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -840,7 +875,7 @@ figure {
   position: absolute;
   left: 0;
   top: 0.05em;
-  font-family: 'UVN Dinh Hon';
+  font-family: 'UVN Dam Cuoi';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1561,7 +1596,7 @@ form label {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  font-family: 'UVN Dinh Hon';
+  font-family: 'UVN Chinh Luan';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1960,7 +1995,7 @@ form label {
 }
 
 .main-font {
-  font-family: 'UVN Dinh Hon', cursive !important;
+  font-family: 'UVN Dam Cuoi', cursive !important;
 }
 
 .and-love {

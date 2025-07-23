@@ -54,7 +54,7 @@ export const styWrapperModal = css`
   }
 
   .title {
-    font-family: 'UVN Dinh Hon', cursive;
+    font-family: 'UVN Chinh Luan', cursive;
     text-align: center;
     font-size: 50px;
     margin-bottom: 0px;

@@ -9,7 +9,7 @@ export const styWrapper = css`
 
   .title__sub {
     text-align: center;
-    font-family: 'UVN Dinh Hon', cursive;
+    font-family: 'UVN Chinh Luan', cursive;
     font-size: 3em;
   }
 `;
