@@ -12,7 +12,7 @@ export const styWrapper = css`
   .bismillah {
     color: #fff !important;
     font-size: 16px !important;
-    font-family: sans-serif;
+    font-family: 'UVN Dam Cuoi', sans-serif;
   }
 
   .sub-title {
