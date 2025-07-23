@@ -89,37 +89,37 @@ function TicketData({ guest, configData }) {
             📝 <strong>Nội dung:</strong> {guest.code || guest.name}
           </p>
         </div>
-      </div>
 
-      {/* Nhập lời nhắn */}
-      <div
-        style={{
-          marginTop: 20,
-          textAlign: 'left',
-          maxWidth: 480,
-          marginLeft: 'auto',
-          marginRight: 'auto',
-        }}
-      >
-        <label htmlFor="message" style={{ fontWeight: '600', color: '#f14e95' }}>
-          💌 Lời nhắn dễ thương cho tụi mình (tuỳ chọn):
-        </label>
-        <textarea
-          id="message"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          placeholder="Viết gì đó gửi đến bọn mình nhé..."
-          rows={4}
+        {/* Nhập lời nhắn */}
+        <div
           style={{
-            width: '100%',
-            borderRadius: 8,
-            border: '1px solid #ccc',
-            padding: 12,
-            fontSize: 16,
-            resize: 'vertical',
-            marginTop: 8,
+            marginTop: 20,
+            textAlign: 'left',
+            maxWidth: 480,
+            marginLeft: 'auto',
+            marginRight: 'auto',
           }}
-        />
+        >
+          <label htmlFor="message" style={{ fontWeight: '600', color: '#f14e95' }}>
+            💌 Lời nhắn dễ thương cho tụi mình (tuỳ chọn):
+          </label>
+          <textarea
+            id="message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            placeholder="Viết gì đó gửi đến bọn mình nhé..."
+            rows={4}
+            style={{
+              width: '100%',
+              borderRadius: 8,
+              border: '1px solid #ccc',
+              padding: 12,
+              fontSize: 16,
+              resize: 'vertical',
+              marginTop: 8,
+            }}
+          />
+        </div>
       </div>
 
       {/* Nút RSVP */}
