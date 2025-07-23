@@ -9,7 +9,7 @@ function PhotoSection() {
       <iframe
         title="Pre-Wedding Bàng & Quỳnh"
         width="100%"
-        height="450px"
+        height="540px"
         src="https://www.youtube.com/embed/EEF4cj2wMSk?autoplay=1&mute=1"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

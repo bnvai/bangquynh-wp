@@ -7,7 +7,7 @@ import Groom from '@assets/images/p-bang.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '21 August 2025, Nhà hàng Long Phụng' : 'TP Huế, 21 tháng 8 năm 2025';
+  const finalSubtitle = isInvitation ? '21 tháng 8 năm 2025, Nhà hàng Long Phụng' : 'TP Huế, 21 tháng 8 năm 2025';
 
   return (
     <Fragment>
@@ -18,8 +18,8 @@ function HelloSection({ isInvitation }) {
               <h2 className="main-font">Chúng Mình Nè</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
-                Gặp nhau từ những ngày ngây ngô nhất. Yêu nhau qua tin nhắn, video call, những lần giận hờn... và bây
-                giờ là yêu nhau cả đời 💗.
+                Gặp nhau từ những ngày ngây ngô nhất. Yêu nhau qua thư tay, tin nhắn, video call, những lần giận hờn...
+                và bây giờ là yêu nhau cả đời 💗.
               </p>
             </div>
           </div>

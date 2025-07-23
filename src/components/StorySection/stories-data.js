@@ -31,7 +31,7 @@ export const stories = [
   },
   {
     title: 'Tốt Nghiệp ',
-    date: 'March 2024',
+    date: 'March 2023',
     description:
       'Ngày mình khoác áo cử nhân, ánh mắt nhìn nhau lấp lánh hơn cả huy chương. Không phải chỉ vì tốt nghiệp, mà vì sau bao cố gắng – chúng mình đã cùng nhau đi qua một chặng đường dài ✨❤️. Một cái ôm chặt hôm ấy thay ngàn lời “Tụi mình giỏi quá rồi đó nha!” 🥹🎉 ',
     image: TotNghiep,
