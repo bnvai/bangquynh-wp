@@ -111,6 +111,15 @@ export const styWrapper = css`
   }
 `;
 
+export const styButtonWrapper = css`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+`;
+
 export const styTicket = css`
   display: flex;
   justify-content: center;
