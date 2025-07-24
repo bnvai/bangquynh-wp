@@ -6,7 +6,7 @@ function createHeart(container) {
   heart.className = 'heart';
   const x = Math.random() * window.innerWidth;
   heart.style.left = `${x}px`;
-  heart.style.animationDuration = 5 + Math.random() * 5 + 's';
+  heart.style.animationDuration = 5 + Math.random() * 2 + 's';
   const size = Math.floor(Math.random() * 16) + 16;
   heart.style.width = size + 'px';
   heart.style.height = size + 'px';
@@ -26,9 +26,10 @@ function HeartRain() {
     const container = containerRef.current;
     if (!container) return;
 
+    const delay = Math.random() * 200 + 500;
     const interval = setInterval(() => {
       if (Math.random() < 0.3) createHeart(container);
-    }, 500);
+    }, delay);
 
     return () => {
       clearInterval(interval);
