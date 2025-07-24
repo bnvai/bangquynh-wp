@@ -39,6 +39,7 @@ export const styWrapper = css`
     animation-name: ${fall};
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+    pointer-events: none;
     opacity: 1;
 
     @media screen and (max-width: 768px) {

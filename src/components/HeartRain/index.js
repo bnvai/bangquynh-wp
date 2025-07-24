@@ -11,8 +11,12 @@ function createHeart(container) {
   heart.style.width = size + 'px';
   heart.style.height = size + 'px';
 
+  heart.addEventListener('animationend', () => {
+    heart.remove();
+  });
+
   container.appendChild(heart);
-  setTimeout(() => heart.remove(), 5000);
+  // setTimeout(() => heart.remove(), 5000);
 }
 
 function HeartRain() {
