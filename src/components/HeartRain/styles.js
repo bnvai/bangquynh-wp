@@ -3,16 +3,19 @@ import heartImg from '@assets/images/heart.png';
 
 const fall = keyframes`
   0% {
-    transform: translateX(0px) translateY(0px) scale(0.8);
+    transform: translateX(0px) translateY(0px) scale(0.9) rotate(0deg);
   }
-  30% {
-    transform: translateX(20px) translateY(30vh) scale(0.95);
+  25% {
+    transform: translateX(15px) translateY(25vh) scale(1.0) rotate(10deg);
   }
-  60% {
-    transform: translateX(-20px) translateY(60vh) scale(1.05);
+  50% {
+    transform: translateX(-15px) translateY(50vh) scale(1.05) rotate(-10deg);
+  }
+  75% {
+    transform: translateX(10px) translateY(75vh) scale(1.1) rotate(5deg);
   }
   100% {
-    transform: translateX(20px) translateY(100vh) scale(1.2);
+    transform: translateX(0px) translateY(100vh) scale(1.15) rotate(0deg);
   }
 `;
 

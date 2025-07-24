@@ -6,7 +6,7 @@ function createHeart(container) {
   heart.className = 'heart';
   const x = Math.random() * window.innerWidth;
   heart.style.left = `${x}px`;
-  heart.style.animationDuration = 2 + Math.random() * 3 + 's';
+  heart.style.animationDuration = 5 + Math.random() * 5 + 's';
   const size = Math.floor(Math.random() * 16) + 16;
   heart.style.width = size + 'px';
   heart.style.height = size + 'px';
