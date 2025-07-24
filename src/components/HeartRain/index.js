@@ -4,7 +4,8 @@ import { styWrapper } from './styles';
 function createHeart(container) {
   const heart = document.createElement('div');
   heart.className = 'heart';
-  heart.style.left = Math.random() * 100 + 'vw';
+  const x = Math.random() * window.innerWidth;
+  heart.style.left = `${x}px`;
   heart.style.animationDuration = 2 + Math.random() * 3 + 's';
   const size = Math.floor(Math.random() * 16) + 16;
   heart.style.width = size + 'px';
