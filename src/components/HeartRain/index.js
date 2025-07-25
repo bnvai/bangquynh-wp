@@ -28,7 +28,7 @@ function HeartRain() {
     if (!container) return;
 
     const interval = setInterval(() => {
-      if (Math.random() < 0.05) createHeart(container);
+      if (Math.random() < 0.3) createHeart(container);
     }, 700);
 
     return () => {
