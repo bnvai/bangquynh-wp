@@ -36,7 +36,7 @@ function Home({ location }) {
 
     return (
       <Fragment>
-        <HeartRain />
+        {/* <HeartRain /> */}
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
         {isInvitation && <LocationSection />}
@@ -50,18 +50,21 @@ function Home({ location }) {
   };
 
   return (
-    <MainLayout>
-      <WelcomeSection
-        guestName={guestName}
-        isAnonymGuest={isAnonymGuest}
-        isInvitation={isInvitation}
-        location={location}
-        codeLink={finalTicketLink}
-        onClickDetail={handleClickDetail}
-      />
-      {renderDetailContent()}
-      <FloatingMusic />
-    </MainLayout>
+    <>
+      {showDetailContent && <HeartRain />}
+      <MainLayout>
+        <WelcomeSection
+          guestName={guestName}
+          isAnonymGuest={isAnonymGuest}
+          isInvitation={isInvitation}
+          location={location}
+          codeLink={finalTicketLink}
+          onClickDetail={handleClickDetail}
+        />
+        {renderDetailContent()}
+        <FloatingMusic />
+      </MainLayout>
+    </>
   );
 }
 
