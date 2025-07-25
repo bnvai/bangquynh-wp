@@ -26,10 +26,9 @@ function HeartRain() {
     const container = containerRef.current;
     if (!container) return;
 
-    const delay = Math.random() * 200 + 500;
     const interval = setInterval(() => {
-      if (Math.random() < 0.3) createHeart(container);
-    }, delay);
+      if (Math.random() < 0.1) createHeart(container);
+    }, 700);
 
     return () => {
       clearInterval(interval);
