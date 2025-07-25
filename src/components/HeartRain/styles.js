@@ -44,10 +44,5 @@ export const styWrapper = css`
     animation-fill-mode: forwards;
     pointer-events: none;
     opacity: 1;
-
-    @media screen and (max-width: 768px) {
-      width: 36px;
-      height: 36px;
-    }
   }
 `;
