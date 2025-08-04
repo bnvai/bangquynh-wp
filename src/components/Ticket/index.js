@@ -16,6 +16,7 @@ function TicketData({ guest, configData }) {
     'https://script.google.com/macros/s/AKfycbwrnp8Nz6dXBMcCtAof5B1PtUjlaaeCmnuGrtDdCk__sea7xzZYQX9KbjW7pxURaoPKAg/exec';
 
   const handleSubmitAttendance = async (isAttending) => {
+    setIsSubmitting(true);
     const payload = {
       name: guest.name,
       code: guest.code,
@@ -33,16 +34,21 @@ function TicketData({ guest, configData }) {
         body: JSON.stringify(payload),
       });
 
-      alert(
-        isAttending
-          ? 'Cảm ơn bạn đã xác nhận tham gia nhé! 💖'
-          : 'Rất tiếc bạn không thể tham dự, cảm ơn bạn đã thông báo nhé!',
-      );
+      setTimeout(() => {
+        alert(
+          isAttending
+            ? 'Cảm ơn bạn đã xác nhận tham gia nhé! 💖'
+            : 'Rất tiếc bạn không thể tham dự, cảm ơn bạn đã thông báo nhé!',
+        );
 
-      setMessage('');
+        setMessage('');
+        setIsSubmitting(false);
+        window.location.href = `/?type=invitation&to=${guest.name}&code=${guest.code}`;
+      }, 2000);
     } catch (error) {
       alert('Gửi phản hồi thất bại rồi, bạn thử lại nhé 😢');
       console.error(error);
+      setIsSubmitting(false);
     }
   };
 
@@ -123,13 +129,21 @@ function TicketData({ guest, configData }) {
         </div>
       </div>
 
+      {/* Trạng thái gửi */}
+      {isSubmitting && <p style={{ color: '#888', marginTop: 12, textAlign: 'center' }}>⏳ Đang gửi phản hồi...</p>}
+
       {/* Nút RSVP */}
       <div css={styButtonWrapper}>
-        <button className="btn attend" onClick={() => handleSubmitAttendance(true)}>
+        <button className="btn attend" onClick={() => handleSubmitAttendance(true)} disabled={isSubmitting}>
           🎉 Tôi sẽ tham gia!
         </button>
 
-        <button className="btn decline" onClick={() => handleSubmitAttendance(false)} style={{ marginLeft: 12 }}>
+        <button
+          className="btn decline"
+          onClick={() => handleSubmitAttendance(false)}
+          disabled={isSubmitting}
+          style={{ marginLeft: 12 }}
+        >
           😞 Không tham gia
         </button>
       </div>
