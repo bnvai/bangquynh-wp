@@ -49,7 +49,8 @@ function TicketData({ guest, configData }) {
 
       setMessage('');
       setIsSubmitting(false);
-      window.location.href = `/?type=invitation&to=${guest.name}&code=${guest.code}`;
+      const redirectURL = `/bangquynh-wp/?type=invitation&to=${encodeURIComponent(guest.name)}&code=${guest.code}`;
+      window.location.href = redirectURL;
     }, 2000);
   };
 
