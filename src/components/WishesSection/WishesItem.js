@@ -2,7 +2,7 @@ import React from 'react';
 import { string, bool } from 'prop-types';
 import { styWrapperItem, styWithAnimation } from './styles';
 
-function WishesItem({ image, name, infoName, description, isActive }) {
+function WishesItem({ image, name, description, isActive }) {
   if (!isActive) return null;
 
   const renderItem = () => {
@@ -13,7 +13,6 @@ function WishesItem({ image, name, infoName, description, isActive }) {
             <img src={image} alt="user" loading="lazy" />
           </figure>
           <h4>{name}</h4>
-          <span className="infoName">{infoName}</span>
           <blockquote>
             <p className="description">{description}</p>
           </blockquote>
@@ -28,7 +27,6 @@ function WishesItem({ image, name, infoName, description, isActive }) {
 WishesItem.propTypes = {
   image: string.isRequired,
   name: string.isRequired,
-  infoName: string.isRequired,
   description: string.isRequired,
   isActive: bool.isRequired,
 };
