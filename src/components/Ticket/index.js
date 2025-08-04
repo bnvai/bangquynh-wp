@@ -9,6 +9,7 @@ import qrImage from '@assets/images/QR.jpg';
 
 function TicketData({ guest, configData }) {
   const [message, setMessage] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   console.log('useState:', useState);
   // Thay URL Google Apps Script của bạn vào đây
