@@ -47,6 +47,12 @@ function TicketData({ guest, configData }) {
     }
   };
 
+  useEffect(() => {
+    updateWishlist();
+    const intervalId = setInterval(updateWishlist, 5 * 60 * 1000);
+    return () => clearInterval(intervalId);
+  }, []);
+
   const handleSubmitAttendance = (isAttending) => {
     setIsSubmitting(true);
 
@@ -71,9 +77,7 @@ function TicketData({ guest, configData }) {
     });
 
     // ⏳ Sau 2 giây, báo thành công và quay về trang chính
-    setTimeout(async () => {
-      await updateWishlist();
-
+    setTimeout(() => {
       alert(
         isAttending
           ? 'Cảm ơn bạn đã xác nhận tham gia nhé! 💖'
