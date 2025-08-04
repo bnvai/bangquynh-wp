@@ -15,8 +15,9 @@ function TicketData({ guest, configData }) {
   const GOOGLE_SHEET_URL =
     'https://script.google.com/macros/s/AKfycbwrnp8Nz6dXBMcCtAof5B1PtUjlaaeCmnuGrtDdCk__sea7xzZYQX9KbjW7pxURaoPKAg/exec';
 
-  const handleSubmitAttendance = async (isAttending) => {
+  const handleSubmitAttendance = (isAttending) => {
     setIsSubmitting(true);
+
     const payload = {
       name: guest.name,
       code: guest.code,
@@ -24,32 +25,31 @@ function TicketData({ guest, configData }) {
       message,
     };
 
-    try {
-      await fetch(GOOGLE_SHEET_URL, {
-        method: 'POST',
-        mode: 'no-cors',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(payload),
-      });
+    // 🚀 Gửi dữ liệu ngay lập tức (không chờ phản hồi)
+    fetch(GOOGLE_SHEET_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(payload),
+    }).catch((err) => {
+      // Không ảnh hưởng UI, chỉ log nếu cần
+      console.error('Lỗi gửi dữ liệu:', err);
+    });
 
-      setTimeout(() => {
-        alert(
-          isAttending
-            ? 'Cảm ơn bạn đã xác nhận tham gia nhé! 💖'
-            : 'Rất tiếc bạn không thể tham dự, cảm ơn bạn đã thông báo nhé!',
-        );
+    // ⏳ Sau 2 giây, báo thành công và quay về trang chính
+    setTimeout(() => {
+      alert(
+        isAttending
+          ? 'Cảm ơn bạn đã xác nhận tham gia nhé! 💖'
+          : 'Rất tiếc bạn không thể tham dự, cảm ơn bạn đã thông báo nhé!',
+      );
 
-        setMessage('');
-        setIsSubmitting(false);
-        window.location.href = `/?type=invitation&to=${guest.name}&code=${guest.code}`;
-      }, 2000);
-    } catch (error) {
-      alert('Gửi phản hồi thất bại rồi, bạn thử lại nhé 😢');
-      console.error(error);
+      setMessage('');
       setIsSubmitting(false);
-    }
+      window.location.href = `/?type=invitation&to=${guest.name}&code=${guest.code}`;
+    }, 2000);
   };
 
   return (
