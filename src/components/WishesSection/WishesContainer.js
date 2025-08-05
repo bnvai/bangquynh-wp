@@ -15,6 +15,7 @@ function WishesContainer() {
   const [pauseSlide, setPauseSlide] = useState(false);
   const totalWishes = wishlist.length || 0;
   const images = [img1, img2];
+
   useEffect(() => {
     async function fetchWishlist() {
       try {
@@ -22,13 +23,13 @@ function WishesContainer() {
           'https://script.google.com/macros/s/AKfycbyydU9gc_-WxxcI7P2ZI0aXpaJEG5xXpvCDvuL2NSXDJ1NlGf33GiRZN0Fp1Ek-mg5tmQ/exec',
         );
 
-        // Nếu server trả về JSON chuẩn
-        const data = await res.json();
+        const rawData = await res.json(); // JSON từ Google Sheet
 
-        // Gán ảnh random nếu item chưa có thuộc tính image
-        const wishlistWithImages = data.map((item) => ({
-          ...item,
-          image: item.image || images[Math.floor(Math.random() * images.length)],
+        // Chuyển đổi từng entry thành định dạng bạn muốn
+        const wishlistWithImages = rawData.map((item) => ({
+          name: item.Name,
+          description: item.Message || '', // fallback nếu không có message
+          image: images[Math.floor(Math.random() * images.length)],
         }));
 
         setWishlist(wishlistWithImages);

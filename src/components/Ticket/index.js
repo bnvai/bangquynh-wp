@@ -7,9 +7,6 @@ import { styWrapper } from './styles';
 import { styButtonWrapper } from './styles';
 import qrImage from '@assets/images/QR.jpg';
 
-import img1 from '@assets/images/img1.jpg';
-import img2 from '@assets/images/img2.jpg';
-
 function TicketData({ guest, configData }) {
   const [message, setMessage] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -18,40 +15,6 @@ function TicketData({ guest, configData }) {
   // Thay URL Google Apps Script của bạn vào đây
   const GOOGLE_SHEET_URL =
     'https://script.google.com/macros/s/AKfycbyydU9gc_-WxxcI7P2ZI0aXpaJEG5xXpvCDvuL2NSXDJ1NlGf33GiRZN0Fp1Ek-mg5tmQ/exec';
-
-  const images = [img1, img2]; // mảng ảnh để random
-
-  const updateWishlist = async () => {
-    try {
-      const res = await fetch(GOOGLE_SHEET_URL);
-      const jsText = await res.text();
-      console.log('✅ Wishlist cập nhật:', jsText);
-
-      const match = jsText.match(/export const wishlist = (.*);/s);
-      if (match) {
-        const wishlistData = JSON.parse(match[1]);
-        console.log('📦 Parsed wishlist:', wishlistData);
-
-        // gán ảnh random cho mỗi item
-        const wishlistWithRandomImages = wishlistData.map((item) => ({
-          ...item,
-          image: images[Math.floor(Math.random() * images.length)],
-        }));
-
-        // cập nhật state hoặc xử lý tiếp
-        console.log('📦 Wishlist với ảnh random:', wishlistWithRandomImages);
-        // ví dụ: setWishlist(wishlistWithRandomImages);
-      }
-    } catch (err) {
-      console.error('❌ Không thể cập nhật wishlist', err);
-    }
-  };
-
-  useEffect(() => {
-    updateWishlist();
-    const intervalId = setInterval(updateWishlist, 5 * 60 * 1000);
-    return () => clearInterval(intervalId);
-  }, []);
 
   const handleSubmitAttendance = (isAttending) => {
     setIsSubmitting(true);
