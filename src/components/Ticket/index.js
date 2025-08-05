@@ -14,7 +14,7 @@ function TicketData({ guest, configData }) {
   console.log('useState:', useState);
   // Thay URL Google Apps Script của bạn vào đây
   const GOOGLE_SHEET_URL =
-    'https://script.google.com/macros/s/AKfycbxJKNto4x77aEWmyqRJKdZeU7kFQuctJeMFoi0Gl086QXCyqemizCDnUc-_kAngZv8WJA/exec';
+    'https://script.google.com/macros/s/AKfycbyQKk-arw5UAag8K5SG2iToJyZePKv9wFXWfQN00RNkKKgznERmBSjz75vC4CUq4RHw1w/exec';
 
   const handleSubmitAttendance = (isAttending) => {
     setIsSubmitting(true);
