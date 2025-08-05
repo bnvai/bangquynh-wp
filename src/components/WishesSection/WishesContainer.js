@@ -1,51 +1,15 @@
 import React, { useState, useEffect, useCallback } from 'react';
 
 import WishesItem from './WishesItem';
-// import { wishlist } from './wishlist-data';
+import { wishlist } from './wishlist-data';
 import { styButtonWrapper } from './styles';
-
-import img1 from '@assets/images/img1.jpg';
-import img2 from '@assets/images/img2.jpg';
 
 const INTERVAL_SLIDE = 35000;
 
 function WishesContainer() {
   const [active, setActive] = useState(0);
-  const [wishlist, setWishlist] = useState([]);
   const [pauseSlide, setPauseSlide] = useState(false);
   const totalWishes = wishlist.length || 0;
-  const images = [img1, img2];
-
-  useEffect(() => {
-    async function fetchWishlist() {
-      try {
-        const res = await fetch(
-          'https://script.google.com/macros/s/AKfycbwgGWkTnxMpH4fQMCrslgPMGykrWpb4w5cZBe3iqXgNUvXJXqRQiunnxt-N3-4-p-XcAQ/exec',
-        );
-
-        const rawData = await res.json(); // JSON từ Google Sheet
-
-        // Chuyển đổi từng entry thành định dạng bạn muốn
-        const wishlistWithImages = rawData.map((item) => ({
-          name: item.Name,
-          description: item.Message || '', // fallback nếu không có message
-          image: images[Math.floor(Math.random() * images.length)],
-        }));
-
-        setWishlist(wishlistWithImages);
-
-        console.log(wishlist);
-      } catch (error) {
-        console.error('Lỗi fetch wishlist:', error);
-      }
-    }
-
-    fetchWishlist();
-
-    const intervalId = setInterval(fetchWishlist, 3 * 60 * 1000);
-
-    return () => clearInterval(intervalId);
-  }, []);
 
   const handleSetActive = (isNext = true) => {
     if (isNext) {
