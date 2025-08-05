@@ -33,6 +33,8 @@ function WishesContainer() {
         }));
 
         setWishlist(wishlistWithImages);
+
+        console.log(wishlist);
       } catch (error) {
         console.error('Lỗi fetch wishlist:', error);
       }
@@ -40,7 +42,7 @@ function WishesContainer() {
 
     fetchWishlist();
 
-    const intervalId = setInterval(fetchWishlist, 5 * 60 * 1000);
+    const intervalId = setInterval(fetchWishlist, 3 * 60 * 1000);
 
     return () => clearInterval(intervalId);
   }, []);
