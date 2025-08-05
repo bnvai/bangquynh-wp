@@ -20,7 +20,7 @@ function WishesContainer() {
     async function fetchWishlist() {
       try {
         const res = await fetch(
-          'https://script.google.com/macros/s/AKfycbwNF7qh7nz_T_HKA87jvKjleYXmy19USO_mfeZp2zz7HyVzZb_Vw3W6gqsH_YVzJ4xzcA/exec',
+          'https://script.google.com/macros/s/AKfycbxJKNto4x77aEWmyqRJKdZeU7kFQuctJeMFoi0Gl086QXCyqemizCDnUc-_kAngZv8WJA/exec',
         );
 
         const rawData = await res.json(); // JSON từ Google Sheet
