@@ -67,7 +67,7 @@
   },
   {
     "code": "BQ-0006",
-    "name": "Uyên +",
+    "name": "Uyên+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -100,7 +100,7 @@
   },
   {
     "code": "BQ-0009",
-    "name": "Lực +",
+    "name": "Lực+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -111,7 +111,7 @@
   },
   {
     "code": "BQ-0010",
-    "name": "Hợp +",
+    "name": "Hợp+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -122,7 +122,7 @@
   },
   {
     "code": "BQ-0011",
-    "name": "Huệ +",
+    "name": "Huệ+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -144,7 +144,7 @@
   },
   {
     "code": "BQ-0013",
-    "name": "Kỳ +",
+    "name": "Kỳ+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -155,7 +155,7 @@
   },
   {
     "code": "BQ-0014",
-    "name": "Phương +",
+    "name": "Phương+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -166,7 +166,7 @@
   },
   {
     "code": "BQ-0015",
-    "name": "Hiền +",
+    "name": "Hiền+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -177,7 +177,7 @@
   },
   {
     "code": "BQ-0016",
-    "name": "Hoa +",
+    "name": "Hoa+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -188,7 +188,7 @@
   },
   {
     "code": "BQ-0017",
-    "name": "Pi +",
+    "name": "Pi+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -199,7 +199,7 @@
   },
   {
     "code": "BQ-0018",
-    "name": "Chi +",
+    "name": "Chi+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -210,7 +210,7 @@
   },
   {
     "code": "BQ-0019",
-    "name": "Trân +",
+    "name": "Trân+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -221,7 +221,7 @@
   },
   {
     "code": "BQ-0020",
-    "name": "Trí +",
+    "name": "Trí+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -243,7 +243,7 @@
   },
   {
     "code": "BQ-0022",
-    "name": "Trọng +",
+    "name": "Trọng+",
     "desc": "Lớp A1 Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -254,7 +254,7 @@
   },
   {
     "code": "BQ-0023",
-    "name": "Trọng +",
+    "name": "Trọng+",
     "desc": "Lớp A2 Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -265,7 +265,7 @@
   },
   {
     "code": "BQ-0024",
-    "name": "Quyên +",
+    "name": "Quyên+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -276,7 +276,7 @@
   },
   {
     "code": "BQ-0025",
-    "name": "Em Kiều My +",
+    "name": "Em Kiều My+",
     "desc": "Em Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -298,7 +298,7 @@
   },
   {
     "code": "BQ-0027",
-    "name": "Em Liên +",
+    "name": "Em Liên+",
     "desc": "Em Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -309,7 +309,7 @@
   },
   {
     "code": "BQ-0028",
-    "name": "Bình +",
+    "name": "Bình+",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -320,7 +320,7 @@
   },
   {
     "code": "BQ-0029",
-    "name": "Quang Huy +",
+    "name": "Quang Huy+",
     "desc": "Bạn Bàng LB",
     "shift": 1,
     "isAttended": "",
@@ -331,7 +331,7 @@
   },
   {
     "code": "BQ-0031",
-    "name": "Long +",
+    "name": "Long+",
     "desc": "Bạn Bàng",
     "shift": 1,
     "isAttended": "",
@@ -342,7 +342,7 @@
   },
   {
     "code": "BQ-0032",
-    "name": "Tuấn +",
+    "name": "Tuấn+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -353,7 +353,7 @@
   },
   {
     "code": "BQ-0033",
-    "name": "Đình Quý +",
+    "name": "Đình Quý+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -364,7 +364,7 @@
   },
   {
     "code": "BQ-0034",
-    "name": "Văn Ngọc +",
+    "name": "Văn Ngọc+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -375,7 +375,7 @@
   },
   {
     "code": "BQ-0035",
-    "name": "Đại Vỹ +",
+    "name": "Đại Vỹ+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -386,7 +386,7 @@
   },
   {
     "code": "BQ-0036",
-    "name": "Tuấn Kiệt +",
+    "name": "Tuấn Kiệt+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -397,7 +397,7 @@
   },
   {
     "code": "BQ-0037",
-    "name": "Đức Tài +",
+    "name": "Đức Tài+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -408,7 +408,7 @@
   },
   {
     "code": "BQ-0038",
-    "name": "Hiếu +",
+    "name": "Hiếu+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -419,7 +419,7 @@
   },
   {
     "code": "BQ-0039",
-    "name": "Thuận +",
+    "name": "Thuận+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -430,7 +430,7 @@
   },
   {
     "code": "BQ-0040",
-    "name": "Hữu Huy +",
+    "name": "Hữu Huy+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -441,7 +441,7 @@
   },
   {
     "code": "BQ-0041",
-    "name": "Quang Huy +",
+    "name": "Quang Huy+",
     "desc": "Bạn Bàng LĐ",
     "shift": 1,
     "isAttended": "",
@@ -452,7 +452,7 @@
   },
   {
     "code": "BQ-0042",
-    "name": "Quốc Huy +",
+    "name": "Quốc Huy+",
     "desc": "Bạn Bàng LĐ",
     "shift": 1,
     "isAttended": "",
@@ -463,7 +463,7 @@
   },
   {
     "code": "BQ-0043",
-    "name": "Phú +",
+    "name": "Phú+",
     "desc": "Bạn Bàng",
     "shift": 1,
     "isAttended": "",
@@ -485,7 +485,7 @@
   },
   {
     "code": "BQ-0046",
-    "name": "Ngọc Trinh +",
+    "name": "Ngọc Trinh+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -496,7 +496,7 @@
   },
   {
     "code": "BQ-0047",
-    "name": "Hải Phi +",
+    "name": "Hải Phi+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -507,7 +507,7 @@
   },
   {
     "code": "BQ-0048",
-    "name": "Đặng Hà +",
+    "name": "Đặng Hà+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -518,7 +518,7 @@
   },
   {
     "code": "BQ-0049",
-    "name": "Dung +",
+    "name": "Dung+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -529,7 +529,7 @@
   },
   {
     "code": "BQ-0050",
-    "name": "Hoài +",
+    "name": "Hoài+",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -573,7 +573,7 @@
   },
   {
     "code": "BQ-0054",
-    "name": "Khải +",
+    "name": "Khải+",
     "desc": "Bạn ĐH Bàng",
     "shift": 1,
     "isAttended": "",
@@ -584,7 +584,7 @@
   },
   {
     "code": "BQ-0055",
-    "name": "Nhật +",
+    "name": "Nhật+",
     "desc": "Bạn ĐH Bàng",
     "shift": 1,
     "isAttended": "",
@@ -595,7 +595,7 @@
   },
   {
     "code": "BQ-0057",
-    "name": "Sơn +",
+    "name": "Sơn+",
     "desc": "Bạn ĐH Bàng",
     "shift": 1,
     "isAttended": "",
@@ -606,7 +606,7 @@
   },
   {
     "code": "BQ-0058",
-    "name": "Anh Cảnh +",
+    "name": "Anh Cảnh+",
     "desc": "Bạn ĐH Bàng",
     "shift": 1,
     "isAttended": "",
@@ -617,7 +617,7 @@
   },
   {
     "code": "BQ-0059",
-    "name": "Mạnh +",
+    "name": "Mạnh+",
     "desc": "Bạn ĐH Bàng",
     "shift": 1,
     "isAttended": "",
@@ -628,7 +628,7 @@
   },
   {
     "code": "BQ-0060",
-    "name": "Em Thưởng +",
+    "name": "Em Thưởng+",
     "desc": "Bạn ĐH Bàng",
     "shift": 1,
     "isAttended": "",
@@ -661,7 +661,7 @@
   },
   {
     "code": "BQ-0063",
-    "name": "Anh Dũng +",
+    "name": "Anh Dũng+",
     "desc": "Lab cũ Bàng",
     "shift": 1,
     "isAttended": "",
@@ -672,7 +672,7 @@
   },
   {
     "code": "BQ-0064",
-    "name": "Em Việt Anh +",
+    "name": "Em Việt Anh+",
     "desc": "Lab cũ Bàng",
     "shift": 1,
     "isAttended": "",
