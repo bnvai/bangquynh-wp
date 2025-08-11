@@ -7,9 +7,7 @@ import Groom from '@assets/images/p-bang.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation
-    ? 'Và lúc 11:00 AM, ngày 21 tháng 8 năm 2025, Nhà hàng Long Phụng'
-    : 'TP Huế, 21 tháng 8 năm 2025';
+  const finalSubtitle = isInvitation ? '11:00 AM • 21/08/2025 • Nhà hàng Long Phụng' : 'TP Huế • 21/08/2025';
 
   return (
     <Fragment>

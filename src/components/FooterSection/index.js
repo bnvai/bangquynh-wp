@@ -19,7 +19,7 @@ function FooterSection({ isInvitation }) {
                 </p>
                 <p className="info">
                   Dù quý vị có thể hiện diện hay chỉ gửi lời chúc từ xa, sự hiện diện và yêu thương của quý vị luôn là
-                  nguồn động viên to lớn đối với chúng tôi.
+                  nguồn động viên to lớn đối với chúng mình ạ.
                 </p>
                 <p className="info">
                   Một lần nữa, xin chân thành cảm ơn và kính chúc quý vị cùng gia đình luôn mạnh khỏe, bình an và hạnh
