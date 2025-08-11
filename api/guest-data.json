@@ -221,7 +221,7 @@
   },
   {
     "code": "BQ-0020",
-    "name": "Trí và ❤️",
+    "name": "V/c Trí",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -243,7 +243,7 @@
   },
   {
     "code": "BQ-0022",
-    "name": "Trọng và ❤️",
+    "name": "Nhật và ❤️",
     "desc": "Lớp A1 Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -684,6 +684,17 @@
   {
     "code": "BQ-0065",
     "name": "Em Ánh",
+    "desc": "Bồ Vũ",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "BQ-0066",
+    "name": "Thúy Uyên và ❤️",
     "desc": "Bồ Vũ",
     "shift": 1,
     "isAttended": "",
