@@ -1,7 +1,7 @@
 [
   {
     "code": "BQ-0000",
-    "name": "Vợ chồng Anh Nhật",
+    "name": "V/c Anh Nhật",
     "desc": "Đồng Nghiệp Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -12,7 +12,7 @@
   },
   {
     "code": "BQ-0001",
-    "name": "Vợ chồng Chị Ngân",
+    "name": "V/c Chị Ngân",
     "desc": "Đồng Nghiệp Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -23,7 +23,7 @@
   },
   {
     "code": "BQ-0002",
-    "name": "Vợ chồng Anh Đức",
+    "name": "V/c Anh Đức",
     "desc": "Đồng Nghiệp Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -34,7 +34,7 @@
   },
   {
     "code": "BQ-0003",
-    "name": "Vợ chồng Anh Huy",
+    "name": "V/c Anh Huy",
     "desc": "Đồng Nghiệp Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -45,7 +45,7 @@
   },
   {
     "code": "BQ-0004",
-    "name": "Vợ chồng Hà",
+    "name": "V/c Hà",
     "desc": "Bạn cũ Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -56,7 +56,7 @@
   },
   {
     "code": "BQ-0005",
-    "name": "Vợ chồng Tâm",
+    "name": "V/c Tâm",
     "desc": "Bạn cũ Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -78,7 +78,7 @@
   },
   {
     "code": "BQ-0007",
-    "name": "Vợ chồng Dương",
+    "name": "V/c Dương",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -89,7 +89,7 @@
   },
   {
     "code": "BQ-0008",
-    "name": "Vợ chồng Thắm",
+    "name": "V/c Thắm",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -133,7 +133,7 @@
   },
   {
     "code": "BQ-0012",
-    "name": "Vợ chồng Rin",
+    "name": "V/c Rin",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -232,7 +232,7 @@
   },
   {
     "code": "BQ-0021",
-    "name": "Vợ chồng Thắng",
+    "name": "V/c Thắng",
     "desc": "Bạn Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -287,7 +287,7 @@
   },
   {
     "code": "BQ-0026",
-    "name": "Vợ chòng chị Duyên và anh Sáu",
+    "name": "V/c chị Duyên và anh Sáu",
     "desc": "Anh Chị Quỳnh",
     "shift": 1,
     "isAttended": "",
@@ -474,7 +474,7 @@
   },
   {
     "code": "BQ-0045",
-    "name": "Vợ chồng Nhung",
+    "name": "V/c Nhung",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -540,7 +540,7 @@
   },
   {
     "code": "BQ-0051",
-    "name": "Vợ chồng Tiên",
+    "name": "V/c Tiên",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -551,7 +551,7 @@
   },
   {
     "code": "BQ-0052",
-    "name": "Vợ chồng Trang",
+    "name": "V/c Trang",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -562,7 +562,7 @@
   },
   {
     "code": "BQ-0053",
-    "name": "Vợ chồng Thảo",
+    "name": "V/c Thảo",
     "desc": "Bạn C3 Bàng",
     "shift": 1,
     "isAttended": "",
@@ -639,7 +639,7 @@
   },
   {
     "code": "BQ-0061",
-    "name": "Vợ chồng Yến Chi",
+    "name": "V/c Yến Chi",
     "desc": "Bạn ĐH Bàng",
     "shift": 1,
     "isAttended": "",
@@ -650,7 +650,7 @@
   },
   {
     "code": "BQ-0062",
-    "name": "Vợ chồng Anh Hóa",
+    "name": "V/c Anh Hóa",
     "desc": "Đồng Nghiệp cũ Bàng",
     "shift": 1,
     "isAttended": "",
