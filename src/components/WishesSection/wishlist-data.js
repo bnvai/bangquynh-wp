@@ -11,14 +11,44 @@ import img10 from '@assets/images/img10.jpg';
 
 export const wishlist = [
   {
-    name: 'Huyền Trang',
-    description: 'Chúc hai bạn trăm năm hạnh phúc, sớm có tin vui!',
-    image: img4,
+    name: 'Quang Huy',
+    description:
+      'Chúc hai bạn trăm năm hạnh phúc. Luôn thấu hiểu, yêu thương và đồng hành cùng nhau trên mọi chặng đường!',
+    image: img5,
   },
   {
-    name: 'Minh Đức',
-    description: 'Chúc vợ chồng son luôn yêu thương và thấu hiểu nhau!',
-    image: img2,
+    name: 'Yến Chi',
+    description: 'Chúc hai chồng vợ trăm năm hạnh phúc, sớm sinh quý tử nhaaa',
+    image: img9,
+  },
+  {
+    name: 'Quốc Thắng',
+    description: 'Chúc bạn tôi trăm năm hạnh phúc nha.😆😆😆😆',
+    image: img3,
+  },
+  {
+    name: 'Chi - Người bạn thân thương của Quỳnh',
+    description:
+      'Chúc hai bạn một cuộc sống hôn nhân viên mãn, tràn đầy yêu thương, luôn sẻ chia với nhau và hạnh phúc nha. Từ hôm nay, cả hai không chỉ là bạn đời mà còn là đôi tri kỷ – hãy luôn nắm tay nhau cùng vượt qua mọi giông bão nhé. Thật mừng và hạnh phúc khi được chứng kiến tình yêu đẹp của hai bạn đơm hoa kết trái!',
+    image: img5,
+  },
+  {
+    name: 'Nhung',
+    description:
+      'Chứng kiến từ lúc mới quen đến khi giận hờn và bay giờ là kết hôn, chúc cậu Bàng trăm năm hạnh phúc, xin vía học giỏi như cậu cho Tin và nhả vía sớm có tin vui cho cậu nè 😍😍',
+    image: img10,
+  },
+  {
+    name: 'Em Ánh',
+    description:
+      'Mừng anh chị hạnh phusc^^. Chúc anh chị có một cuộc sống hôn nhân thật viên mãn, tràn ngập tiếng cười và luôn giữ được ngọn lửa tình yêu như thuở ban đầu',
+    image: img8,
+  },
+  {
+    name: 'Nguyên',
+    description:
+      'Cả một chặn đường dài phía trước. Nguyên chúc QvB luôn nắm tay nhau đi  hết con đường tương lai và thật hạnh phúc nhé bạn 🫶',
+    image: img6,
   },
   {
     name: 'Thanh Hà',
@@ -34,16 +64,6 @@ export const wishlist = [
     name: 'Phương Linh',
     description: 'Mãi như ngày đầu nhé hai bạn. Chúc mừng hạnh phúc!',
     image: img7,
-  },
-  {
-    name: 'Hoàng Yến',
-    description: 'Chúc hai bạn xây dựng một tổ ấm ngập tràn tiếng cười!',
-    image: img3,
-  },
-  {
-    name: 'Đức Tài',
-    description: 'Tình yêu lớn bắt đầu từ những điều nhỏ – giữ mãi yêu thương nhé!',
-    image: img5,
   },
   {
     name: 'Ngọc Mai',
